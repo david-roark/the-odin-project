@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Project: Etch-a-Sketch</title>
+  </head>
+  <body>
+    <div class="container-sketch">
+      <marquee>Etch a Sketch</marquee>
+      <div class="sketch-area"></div>
+      <div class="function-button">
+
+        <div class="dropup" id="myDropup">
+          <button class="btn color dropbtn" onclick="drawColor()">Draw</button>
+          <div class="dropup-content">
+              <label for="userColor">Set Color:</label>
+              <input onclick='drawColor()' type="color" name="userColor" id="userColor">
+
+              <label for="colorfull">Colorfull: </label>
+              <input onclick="setColorfull()" class="div-colorfull" type="button" value="&#127912;">
+
+              <!-- <label for="gadient">Gadient:  </label>
+              <input class="" type="button" value="&#9641;"> -->
+          </div>
+        </div>
+
+        <button class="btn erase" onclick='eraseColor()'>Erase</button>
+        <button class="btn mode" onclick="modeGird()">Gird</button>
+        <button class="btn size" onclick="setSize()">Resize</button>
+        <button class="btn reset disabaled" onclick='resetColor()' title="Default (color: white smoke, size: 16x16)">Reset</button>
+      </div>
+    </div>
+
+    <footer><small>Created by David Roark</small></footer>
+    <script type="text/javascript" src="function-sketch.js">
+    </script>
+  </body>
+</html>

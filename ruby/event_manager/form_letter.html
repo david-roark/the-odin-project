@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Thank you!</title>
+  </head>
+  <body>
+  <h1>Thanks <%= name %></h1>
+  <p>Thanks for coming to our conference.  We couldn't have done it without you!</p>
+
+  <p>
+    Political activism is at the heart of any democracy and your voice needs to be heard.
+    Please consider reaching out to your following representatives:
+  </p>
+
+  <table>
+    <% if legislators.kind_of?(Array) %>
+      <th>Name</th><th>Website</th><th>Phone Number</th><th>Time</th>
+        <% legislators.each do |legislator| %>
+        <tr>
+          <td><%= "#{legislator.name}" %></td>
+          <td><%= "#{legislator.urls.join}" unless legislator.urls.nil? %></td>
+          <td><%= phone_number %></td>
+        </tr>
+        <% end %>
+    <% else %>
+      <th></th>
+      <td><%= "#{legislators}" %></td>
+    <% end %>
+  </table>
+</body>
+</html>

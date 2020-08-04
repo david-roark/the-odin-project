@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Game: Rock-Paper-Scissors</title>
+</head>
+<body>
+  <nav class="topnav">
+    <a class="openbtn" onclick="openNav()">Rules</a>
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <li>Paper beats Rock</li>
+      <li>Rock beats Scissors</li>
+      <li>Scissors beats Paper</li>
+    </div>
+
+    <a href="#about">About</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">Version
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="mini_game.html">Version 1.0</a>
+        <a href="mini_game_with_ui.html">Version 2.0</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <h3> Information:</h3>
+    <p>This is the fisrt version (v1.0) of mini game "Rock Papper Scissors" that play with Console. Please open Console in Developer tools and type <i>"helper()"</i> to know how to play. If you want to play with new <a href="mini_game_with_ui.html">version (v2.0)</a>  that has simple UI.</p>
+  </main>
+  <script>
+    // Fuction computerPlay: Computer will randomly return either ‘Rock’, ‘Paper’ or ‘Scissors’.
+    function computerPlay() {
+      let num = Math.floor(Math.random() * Math.floor(3));
+      switch (num) {
+        case 0:
+          return "rock";
+          break;
+        case 1:
+          return "paper";
+          break;
+        default:
+          return "scissors"
+          break;
+      }
+    }
+    // Function playRound: It will return the result the winner.
+    function playRound(playerSelection, computerSelection) {
+          playerSelection = playerSelection.toLowerCase();
+
+          if (playerSelection == computerSelection) {
+            return 'We have the same result!';
+          } else if (['rock', 'paper', 'scissors'].includes(playerSelection)){
+            switch (computerSelection) {
+              case 'rock':
+                return (playerSelection == 'paper')? "You win! Paper beats Rock" : "You lose! Rock beats Scissors";
+                break;
+              case 'paper':
+              return (playerSelection == 'scissors')? "You win! Scissors beats Paper" : "You lose! Paper beats Rock";
+                break;
+              case 'scissors':
+              return (playerSelection == 'rock')? "You win! Rock beats Scissors" : "You lose! Scissors beats Paper";
+                break;
+            }
+          } else {
+            return "Please select one of the listed suggestions. You can enter uppercase or lowercase as you like! "
+          }
+    }
+
+    // Function game: start to play game
+    function game() {
+      let number_round = 5;
+      do {
+        number_round = Number(prompt("How many round do you want to play?\n Please, type a number >= 0. (default: 5 round)", 5));
+      } while (number_round < 0);
+
+      for (let round = 1; round <= number_round; round++){
+        const computerSelection = computerPlay();
+        const playerSelection = prompt("ROUND:"+ round +"/"+ number_round +" \nWhat do you choose: 'rock', 'paper' or 'scissors'?");
+
+        console.log("Round: " + round + " =>   " + playRound(playerSelection, computerSelection));
+      }
+    }
+
+    // Function Helper: list information about function in this Mini-game
+    function helper() {
+      console.log("Function Helper: list information about function in this Mini-game \nFuction computerPlay: Computer will randomly return either ‘Rock’, ‘Paper’ or ‘Scissors’.\nFunction playRound: It will return the result the winner.\nFunction game: start to play game");
+    }
+
+    // function for topnav
+    function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+    }
+  }
+  /* Set the width of the sidebar to 250px (show it) */
+  function openNav() {
+    document.getElementById("mySidepanel").style.width = "250px";
+  }
+
+  /* Set the width of the sidebar to 0 (hide it) */
+  function closeNav() {
+    document.getElementById("mySidepanel").style.width = "0";
+  } 
+    </script>
+
+</body>
+</html>

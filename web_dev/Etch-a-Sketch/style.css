@@ -1,0 +1,111 @@
+body {
+  background-color: cornsilk;
+}
+.container-sketch {
+  background-color: yellowgreen;
+  height: 600px;
+  width: 600px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.container-sketch marquee {
+  font-size: 2em;
+  color: rgb(240, 250, 240);
+  margin: 10px;
+
+}
+
+.container-sketch h3:hover {
+  background-color: yellowgreen;
+  color: white;
+}
+
+.sketch-area {
+ display: flex;
+ flex-wrap: wrap;
+ height: 480px;
+ width: 480px;
+ margin: auto;
+}
+
+.ceil {
+  background-color: whitesmoke;
+  border: 1px solid;
+}
+
+.ceil-change {
+  border-color: transparent;
+}
+
+.function-button {
+  display: table;
+  margin: auto;
+}
+.function-button button {
+  margin-top: 5px;
+}
+.btn {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: green;
+  color: black;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.draw, .erase, .color, .size, .mode {
+  border-color: #4CAF50;
+  color: white;
+}
+
+.draw:hover, .erase:hover, .color:hover, .size:hover, .mode:hover {
+  background-color: whitesmoke;
+  color: green;
+}
+
+.reset {
+  background-color: red;
+  border-color: #f74545;
+  color: white;
+}
+
+.reset:hover {
+  background-color: whitesmoke;
+  color: red;
+}
+
+.show {
+  display: block;
+  background-color: yellowgreen;
+  float: left;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  bottom: 30%;
+  left: 45%;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: yellowgreen;
+  min-width: 160px;
+  bottom: 45px;
+  z-index: 1;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.dropup:hover .dropup-content {
+  display: block;
+}

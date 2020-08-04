@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Game: Rock-Paper-Scissors</title>
+</head>
+
+<body>
+  <nav class="topnav">
+    <a class="openbtn" onclick="openNav()">Rules</a>
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <li>Paper beats Rock</li>
+      <li>Rock beats Scissors</li>
+      <li>Scissors beats Paper</li>
+    </div>
+
+    <a href="#about" title="Comming soon">About</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">Version
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="mini_game.html">Version 1.0</a>
+        <a href="mini_game_with_ui.html">Version 2.0</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="play-area">
+    <div class="player">
+      <h3>Player</h3>
+      <button type="button" name="rock">Rock</button>
+      <button type="button" name="paper">Paper</button>
+      <button type="button" name="scissors">Scissors</button>
+    </div>
+
+    <div class="computer">
+      <h3>Computer <small>(auto)</small></h3>
+      <button type="button" name="rock">Rock</button>
+      <button type="button" name="paper">Paper</button>
+      <button type="button" name="scissors">Scissors</button>
+    </div>
+  </main>
+  <div class="show-result">
+    <div class="result">
+      <h3>Result:</h3>
+      <i>Who will reach 5 point fisrt? Let's play now!</i>
+    </div>
+    <div class="scores">
+      <p class="number-rounds"><strong>Total rounds: </strong>0</p>
+      <p class="won"><strong>You won: </strong>0</p>
+      <p class="draws"><strong>Draws: </strong>0</p>
+      <p class="lose"><strong>You lose: </strong>0</p>
+    </div>
+  </div>
+
+  <details>
+    <summary>History:</summary>
+    <ol class="history-result">
+    </ol>
+  </details>
+  <script src="mini_game_with_ui.js" charset="utf-8"></script>
+
+</body>
+
+</html>

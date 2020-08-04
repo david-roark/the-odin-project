@@ -1,0 +1,6 @@
+time,name,secret_word,answer,turn,heart
+2020-07-31 14:45:17 +0700,duy,pigsty,_ |i |_ |_ |_ |_ ,5,2
+2020-07-31 15:06:51 +0700,Duy,deistic,_ |_ |i |_ |_ |i |_ ,5,2
+2020-07-31 15:11:29 +0700,Duy,folkway,_ |o |_ |_ |_ |_ |_ ,2,5
+2020-07-31 16:13:47 +0700,test delete,slyness,_ |_ |_ |_ |_ |_ |_ ,4,2
+2020-07-31 16:14:23 +0700,test delete,slyness,s |_ |_ |_ |_ |s |s ,3,4
