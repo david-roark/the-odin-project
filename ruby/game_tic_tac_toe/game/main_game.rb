@@ -27,7 +27,7 @@ while (round <= 9 || choose == 'exit') do
 
   break if choose == 'exit game'
 
-  player_x == true ? player1.position(choose) : player2.position(choose)
+  player_x == true ? player1.tick(choose) : player2.tick(choose)
 
   player_x = !(player_x)
   round += 1

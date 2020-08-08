@@ -42,9 +42,10 @@ class Player < GameBoard
     win - @chose.sort.combination(3).to_a != win
   end
 
-  def position(choose)
+  def tick(choose)
     @@BOARD[choose] = @mark
     @chose << choose
+    self
   end
 
   def win_board
