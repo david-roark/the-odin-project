@@ -34,11 +34,15 @@ while (round <= 9 || choose == 'exit') do
   choose = ' '
 
   if player1.win?
+    player1.win_board
+    GameBoard.game_board
     puts "*****~ #{player1.name_player} is the Champion!! ~*****"
     break
   end
 
   if player2.win?
+    player2.win_board
+    GameBoard.game_board
     puts "*****~ #{player2.name_player} is the Champion!! ~*****"
     break
   end
