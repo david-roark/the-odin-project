@@ -49,6 +49,6 @@ class Player < GameBoard
   end
 
   def win_board
-    @@BOARD.transform_values! { |v| v == @mark ? v : ' '}
+    @@BOARD.transform_values! { |v| v == @mark ? v : v.downcase }
   end
 end
