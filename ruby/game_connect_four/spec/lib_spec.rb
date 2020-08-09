@@ -20,12 +20,17 @@ describe Player do
     end
 
     it 'in a col (not win)' do
-      player4 = Player.new('name', %w[2.5 4.5 5.5 6.7 7.5 5.5])
+      player4 = Player.new('name', %w[2.5 4.5 1.1 6.7 7.5 5.5])
       expect(player4.win?).to eql(false)
     end
 
-    it 'along a diagonal (win)' do
+    it 'along a diagonal 1-(2.2 3.3 4.4 5.5) (win)' do
       player5 = Player.new('mae', %w[2.2 5.6 10.10 5.5 3.3 4.4])
+      expect(player5.win?).to eql(true)
+    end
+
+    it 'along a diagonal 2-(1.5 2.4 3.3 4.2) (win)' do
+      player5 = Player.new('mae', %w[2.2 5.6 3.3 2.4 1.5 10.10 4.2])
       expect(player5.win?).to eql(true)
     end
 
