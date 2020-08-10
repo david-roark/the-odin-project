@@ -146,7 +146,7 @@ class Tree
     h_left > h_right ? h_left += 1 : h_right += 1
   end
 
-  def depth(node = @root)
+  def depth(node)
     height(node)
   end
 
