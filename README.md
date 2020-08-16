@@ -4,7 +4,9 @@ Here are all my projects and files I have learned and practiced in [Theodinproje
 # Folder:
   - web_dev: some litle project for web development that I've learned in  [Theodinproject/Web Development 101](https://www.theodinproject.com/courses/web-development-101)
     + Basic about web, front-end (html/css/javascript), back-end and git
-  - ruby : project and file ruby I've learned in  [Theodinproject/Ruby Programming](https://www.theodinproject.com/courses/ruby-programming)
+  - ruby: project and file ruby I've learned in  [Theodinproject/Ruby Programming](https://www.theodinproject.com/courses/ruby-programming)
     + Object-oriented design
     + Testing
     + Data structures
+  - rails: link to my Ruby on Rails projects that I've learned in [Theodinproject/Ruby on Rails](https://www.theodinproject.com/courses/ruby-on-rails)
+    + Blogger
