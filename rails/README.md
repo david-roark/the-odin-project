@@ -19,3 +19,6 @@
   
   - *Members-only*
     + [GitHub](https://github.com/David-Roark/members-only)
+    
+  - *Private Events*
+    + [GitHub](https://github.com/David-Roark/private-events)
