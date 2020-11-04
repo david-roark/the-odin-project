@@ -22,3 +22,9 @@
     
   - *Private Events*
     + [GitHub](https://github.com/David-Roark/private-events)
+  
+  - *Flight Booker*
+    + [GitHub](https://github.com/David-Roark/flight-booker)
+    
+  - *Flickr API*
+    + [GitHub](https://github.com/David-Roark/odin-flickr)
