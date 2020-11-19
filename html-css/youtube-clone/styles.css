@@ -1,0 +1,388 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* RESET CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+body {
+  background-color: #333;
+  color: white;
+}
+
+/* boby layout */
+.header {
+  display: grid;
+  background-color: #1e1f1f;
+  grid-template-columns: 30px 170px minmax(300px, auto) 250px;
+  grid-column-gap: 20px;
+  padding: 10px 20px;
+  width: auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+
+main {
+  display: inline-flex;
+  padding: 54px 5px 5px;
+  background-color: inherit;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: stretch;
+}
+
+.watch {
+  color: white;
+  padding: 25px;
+}
+
+/* header layout*/
+/* navbar */
+.navbar {
+  color: white;
+  font-size: 20px;
+  ;
+  align-items: center;
+}
+
+/* logo YouTube */
+.logo-yt {
+  color: white;
+  font-size: 20px;
+  ;
+}
+
+.logo-yt .fa-youtube {
+  color: red !important;
+  font-size: 1.5em;
+}
+
+/* Search */
+.search {
+  display: grid;
+  grid-template-columns: minmax(150px, 700px) 40px;
+  justify-content: center;
+}
+
+.search .icon-search {
+  background-color: #444;
+  display: inline-block;
+  border-radius: 0 5px 5px 0;
+  color: #dfdfdf;
+  padding: 10px;
+}
+
+.search .icon-search:active {
+  color: gray;
+}
+
+.search input {
+  border-radius: 5px 0 0 5px;
+  padding: 0 15px;
+  background-color: #222;
+  color: white;
+  border-color: grey;
+}
+
+.search input:focus {
+  border-color: #549af6;
+  border-width: thin;
+}
+
+/* function */
+.function {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: end;
+  grid-column-gap: 15px;
+  font-size: 20px;
+  ;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.f-icon {
+  color: white;
+}
+
+.function .btn-login {
+  border: thin solid #549af6;
+  border-radius: 5px;
+  color: #549af6;
+  padding: 5px;
+}
+
+/* watch */
+.video iframe {
+  width: 800px;
+  height: 450px;
+}
+
+/* video play-area */
+/* infor about video */
+.info-video {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-content: space-between;
+}
+
+.info-left {
+  color: grey;
+}
+
+.info-right {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 10px;
+  font-size: 18px;
+  color: #c3c3c3;
+  justify-content: flex-end;
+}
+
+/* intro video */
+.intro-video {
+  padding-top: 20px;
+}
+
+/* brand */
+.chanel {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+.chanel-brand {
+  display: flex;
+}
+
+/* brand area */
+.chanel-logo {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.chanel-logo .fa-youtube-play {
+  font-size: 35px;
+  color: black;
+  position: relative;
+  top: 7px;
+  left: 7px;
+}
+
+.chanel-name-subscribers {
+  display: inline-block;
+}
+
+.chanel-name-subscribers h3,
+.chanel-name-subscribers p {
+  margin: 5px 10px;
+}
+
+.fa-check {
+  background-color: gray;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.btn-subscribe {
+  background-color: #c30718;
+  font-weight: bold;
+  border-radius: 2px;
+  height: 50%;
+  padding: 10px 5px 5px;
+}
+
+.intro-content {
+  padding-left: 55px;
+}
+
+/* Comments */
+.comments {
+  padding-top: 20px;
+}
+
+.header-comments {
+  font-weight: bold;
+}
+
+.header-comments .fa-sort {
+  padding-left: 20px;
+}
+
+.box-comments {
+  display: flex;
+  padding-top: 20px;
+}
+
+.avatar-user {
+  background-color: gray;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  margin-right: 20px;
+}
+
+.avatar-user .fa-user {
+  font-size: 40px;
+  position: relative;
+  top: 8px;
+  left: 8px;
+}
+
+.comment-area {
+  width: 100%;
+}
+
+/* Up Next area */
+.up-next {
+  padding: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 400px;
+  color: inherit;
+}
+
+.up-next-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.up-next-header .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.up-next-header .option {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* next-video */
+.up-next-videos {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.next-video {
+  display: flex;
+  align-content: left;
+  margin: 5px;
+}
+
+.thumbnail {
+  width: 160px;
+  height: 120px;
+  margin-right: 5px;
+}
+
+.thumbnail img {
+  width: 160px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.info-next-video {
+  width: 240px;
+  height: 120px;
+}
+
+.info-next-video h2 {
+  margin: 5px;
+  font-size: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.info-next-video p {
+  margin: 5px;
+  font-size: 1em;
+}
+
+.info-next-video p:last-child {
+  margin: 5px;
+  font-size: 0.8em;
+}
+
+/* Author */
+.author {
+  position: fixed;
+  bottom: 2px;
+  left: 5px;
+  background-color: #0665a1;
+  border-radius: 2px;
+  padding: 5px;
+  opacity: 0.1;
+}
+
+.author:hover {
+  opacity: 1;
+}
+
+.fa:hover {
+  color: #549af6;
+}
+
+input[type="text"]{
+  border: none;
+  border-bottom: 1px solid gray;
+  color:inherit;
+  background-color: inherit;
+  width: 100%;
+  padding: 5px;
+}

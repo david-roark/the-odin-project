@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Youtube Clone</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="navbar">
+      <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+
+    </div>
+
+    <div class="logo-yt">
+      <i class="fa fa-youtube" aria-hidden="true"></i> YouTube<sup style="color:#ddd;font-size:0.5em;">VN</sup>
+    </div>
+
+    <div class="search">
+      <input type="search" name="search" placeholder="Search">
+      <i class="fa fa-search icon-search" aria-hidden="true"></i>
+    </div>
+
+    <div class="function">
+      <a class="f-icon" href="#" title="Create">
+        <i class="fa fa-video-camera" aria-hidden="true"></i>
+      </a>
+      <a class="f-icon" href="#" title="More app">
+        <i class="fa fa-th" aria-hidden="true"></i>
+      </a>
+      <a class="f-icon" href="#" title="Settings">
+        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+      </a>
+      <a href="#">
+        <div class="btn-login"><i class="fa fa-user" aria-hidden="true"> Sign In</i></div>
+      </a>
+    </div>
+  </header>
+  <main>
+    <!-- display watching -->
+    <section class="watch">
+      <!-- display video of YouTube -->
+      <article class="play-area">
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/lJIrF4YjHfQ" frameborder="0" allow="accelerometer;
+          autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h2>Embed videos and playlists</h2>
+        </div>
+
+        <div class="info-video">
+          <div class="info-left">
+            239,089 views • May 13, 2016</div>
+          <div class="info-right">
+            <i class="fa fa-thumbs-o-up" aria-hidden="true" title="I like"> 978</i>
+            <i class="fa fa-thumbs-o-down" aria-hidden="true" title="I dislike"> 293</i>
+            <i class="fa fa-share" aria-hidden="true" title="Share"> SHARE</i>
+            <i class="fa fa-plus-square-o" aria-hidden="true"> SAVE</i>
+            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+          </div>
+        </div>
+        <hr>
+
+        <div class="intro-video">
+          <div class="chanel">
+            <div class="chanel-brand">
+              <div class="chanel-logo">
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              </div>
+              <div class="chanel-name-subscribers">
+                <h3 class="chanel-name">TeamYoutube[Help]<i class="fa fa-check" aria-hidden="true"></i></h3>
+                <p class="chanel-subscribers">8.13M subscribers</p>
+              </div>
+
+            </div>
+
+            <div class="btn-subscribe">SUBSCRIBE</div>
+          </div>
+          <div class="intro-content">
+            <p>
+              To learn more please visit the YouTube Help Center: <a href="https://www.youtube.com/help">https://www.youtube.com/help</a>
+            </p>
+          </div>
+
+
+        </div>
+      </article>
+      <hr>
+      <article class="comments">
+        <header class="header-comments">
+          130 Comments <i class="fa fa-sort" aria-hidden="true"> SORT BY</i>
+        </header>
+        <div class="box-comments">
+          <div class="avatar-user">
+
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </div>
+          <div class="comment-area">
+            <input type="text" name="" placeholder="Add a public comments...">
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- dispaly up next videos -->
+    <aside class="up-next">
+      <header class="up-next-header">
+        <div class="title">
+          Up next
+        </div>
+        <div class="option">
+          <div>
+            Autoplay
+          </div>
+          <svg width="60" height="30">
+            <rect x="10" y="4" width="46" height="16" rx="8" ry="8" style="fill: rgba(0, 115, 255, 0.43);" />
+            <circle style="fill: rgb(26, 137, 255);" cx="45" cy="12" r="11" />
+          </svg>
+        </div>
+      </header>
+
+      <section class="up-next-videos">
+        <article class="next-video">
+          <div class="thumbnail">
+            <img src="images/video1.jpeg" alt="video1" height="120px" weight="160px">
+          </div>
+          <div class="info-next-video">
+            <h2>Title To learn more please visit the YouTube</h2>
+            <p>Chanel name <i class="fa fa-check" aria-hidden="true"></i></p>
+            <p>239,089 views • May 13, 2016</p>
+          </div>
+        </article>
+
+        <article class="next-video">
+          <div class="thumbnail">
+            <img src="images/video2.jpeg" alt="video2" height="120px" weight="160px">
+          </div>
+          <div class="info-next-video">
+            <h2>Title suggestions</h2>
+            <p>Chanel name is too looooooooooong <i class="fa fa-check" aria-hidden="true"></i></p>
+            <p>239,089 views • May 13, 2016</p>
+          </div>
+        </article>
+
+        <article class="next-video">
+          <div class="thumbnail">
+            <img src="images/video3.jpeg" alt="video3" height="120px" weight="160px">
+          </div>
+          <div class="info-next-video">
+            <h2>Title</h2>
+            <p>Chanel name <i class="fa fa-check" aria-hidden="true"></i></p>
+            <p>239,089 views • May 13, 2016</p>
+          </div>
+        </article>
+
+        <article class="next-video">
+          <div class="thumbnail">
+            <img src="images/video4.jpeg" alt="video4" height="120px" weight="160px">
+          </div>
+          <div class="info-next-video">
+            <h2>Title</h2>
+            <p>Chanel name <i class="fa fa-check" aria-hidden="true"></i></p>
+            <p>239,089 views • May 13, 2016</p>
+          </div>
+        </article>
+
+        <article class="next-video">
+          <div class="thumbnail">
+            <img src="images/video5.jpeg" alt="video5" height="120px" weight="160px">
+          </div>
+          <div class="info-next-video">
+            <h2>Title</h2>
+            <p>Chanel name <i class="fa fa-check" aria-hidden="true"></i></p>
+            <p>239,089 views • May 13, 2016</p>
+          </div>
+        </article>
+
+        <article class="next-video">
+          <div class="thumbnail">
+            <img src="images/video6.jpeg" alt="video6" height="120px" weight="160px">
+          </div>
+          <div class="info-next-video">
+            <h2>Title</h2>
+            <p>Chanel name <i class="fa fa-check" aria-hidden="true"></i></p>
+            <p>239,089 views • May 13, 2016</p>
+          </div>
+        </article>
+
+        <article class="next-video">
+          <div class="thumbnail">
+            <img src="images/external.jpeg" alt="exter" height="120px" weight="160px">
+          </div>
+          <div class="info-next-video">
+            <h2>Title</h2>
+            <p>Chanel name <i class="fa fa-check" aria-hidden="true"></i></p>
+            <p>239,089 views • May 13, 2016</p>
+          </div>
+        </article>
+
+      </section>
+
+    </aside>
+
+  </main>
+
+  <!--  -->
+  <footer>
+    <div class="author">
+      Create by David Roark <sup style="font-size: 0.7em;">Best on FireFox</sup>
+    </div>
+  </footer>
+</body>
+
+</html>
