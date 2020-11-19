@@ -16,5 +16,5 @@ Here are all my projects and files I have learned and practiced in [Theodinproje
   - Please read in README.md in folder #rails to follow link to my projects
   
 * Html - Css:
-  - Deep learning about HTML and CSS for UX web development
-  - Goals: HTML, CSS, UX
+  - Link to my Html -Css course [Theodinproject / Html-css](https://www.theodinproject.com/courses/html-and-css)
+  - Goals: Deep learning about HTML and CSS for UX web development
