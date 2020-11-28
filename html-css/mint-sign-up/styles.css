@@ -1,0 +1,177 @@
+body {
+  background-color: #eceef1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: gray;
+  min-width: 500px;
+}
+
+/* header */
+.group-sign-in {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  align-items: center;
+}
+
+.group-forget-account {
+  font-size: 12px;
+  margin: 0 10px;
+}
+
+.btn-sign-in {
+  background-color: #0077c5;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 25px;
+}
+
+/* main */
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  width: 450px;
+  padding: 30px;
+  margin: auto;
+  color: rgb(65, 65, 65)
+}
+/* header */
+.intuit-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.group-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px 20px;
+}
+
+.group-nav a {
+  color: inherit;
+  font-size: 16px;
+}
+
+.nav-logo i,
+.nav-logo svg {
+  position: absolute;
+  left: -30px;
+  top: -5px;
+}
+
+.invert_colors {
+  background-color: rgb(2, 198, 198);
+  color: white;
+  border-radius: 50%;
+}
+.check {
+  background-color: rgb(220, 0, 0);
+  color: white;
+  border-radius: 50%;
+}
+
+/* sign up form */
+.sign-up-form {
+  background-color: white;
+  padding: 30px 25px;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+}
+
+.sign-up-message {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.sign-up-mess-title {
+  font-size: 25px;
+  color: gray;
+  align-self: center;
+}
+
+.sign-up-mess-content {
+  align-self: center;
+  margin-top: 20px;
+}
+
+/* form body */
+.sign-up-form-body {
+  margin-top: 30px;
+}
+
+.sign-up-form-body div {
+  margin-top: 30px;
+}
+
+input {
+  width: 95%;
+  margin-top: 10px;
+}
+
+.sms-tel-warming {
+  font-size: 0.8em;
+}
+
+.sms-password-warming {
+  display: none;
+}
+
+.btn-submit {
+  width: 100%;
+  background-color: #0077c5;
+  color: whitesmoke;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* sign up footer */
+.sign-up-footer {
+  padding-top: 40px;
+}
+
+.sign-up-terms {
+  text-align: center;
+  font-style: italic;
+  color: gray;
+  text-indent: 50px;
+}
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* All */
+a {
+  text-decoration: none;
+  color: rgb(0, 180, 240);
+}
+
+li {
+  list-style: none;
+  margin: 0 5px;
+  position: relative;
+}
