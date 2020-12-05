@@ -1,0 +1,362 @@
+/*  */
+* {
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+/* css body level */
+.page-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  height: 45px;
+  background-color: white;
+  padding: 5px 10px;
+  box-shadow: 0px 0px 2px 2px whitesmoke;
+  z-index: 20;
+}
+
+.page-header {
+  width: 1000px;
+  margin: 0 auto;
+
+}
+
+.page-main {
+  width: 1000px;
+  margin: 30px auto;
+
+}
+
+/* navbar area */
+.group-start {
+  display: flex;
+  min-width: 270px;
+  flex-basis: 400px;
+}
+
+.group-start div {
+  margin: auto 15px;
+}
+
+.logo-nyt {
+  flex-basis: 400px;
+}
+
+.logo-nyt a {
+  position: relative;
+  top: 5px;
+}
+
+.logo-nyt svg {
+  height: 80%;
+  width: auto;
+}
+
+.group-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  flex-basis: 300px;
+}
+
+button {
+  background-color: rgb(72, 114, 131);
+  color: white;
+  font-weight: bold;
+  font-size: small;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  border-radius: 2px;
+  border-style: none;
+  margin: 0 5px;
+  height: 30px;
+  width: max-content;
+}
+
+button:hover {
+  background-color: rgb(43, 92, 138)
+}
+
+/* page header area */
+
+h1.title-article {
+  width: 60%;
+  margin: 100px auto 10px;
+}
+
+.page-header hr {
+  width: 60%;
+  border: thin solid darkgray;
+  margin-bottom: 30px;
+}
+
+.media-article {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.media-article figure {
+  margin: 40px 0;
+  padding: 0;
+}
+.illustration-article img {
+  width: 100%;
+  height: auto;
+}
+
+.illustration-article figcaption {
+  color: gray;
+  font-size: 0.8em;
+  font-family: inherit;
+  margin: 10px auto;
+}
+
+.illustration-article figcaption span {
+  color: darkgray;
+}
+
+.info-article {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+h3.author-article {
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+h3.author-article a {
+  text-decoration: underline;
+  text-decoration-color: darkgray;
+}
+
+.more-info-article {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.published {
+  font-size: 0.7em;
+  font-weight: 400;
+  color: gray;
+}
+
+.tool-bars {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.tool-bars li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.share-tools {
+  position: relative;
+  background-color: rgb(224, 231, 225);
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+
+.share-tools i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+}
+
+.tool-bars .article-tools {
+  font-size: 27px;
+}
+
+.tool-bars .article-tools span {
+  font-size: 10px;
+  position: relative;
+  top: -6px;
+  left: -23px;
+}
+
+.content-article {
+  width: 600px;
+  margin: auto;
+}
+
+/* footer bars area */
+.footer-bars {
+  width: 600px;
+  margin: 30px auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.footer-bars .description-article {
+  width: 600px;
+  color: gray;
+  font-size: 0.6em;
+  margin: 20px auto;
+}
+
+.footer-bars button {
+  width: 300px;
+}
+
+.description-article a {
+  color: inherit;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.page-aside {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+}
+
+/* suggest articles */
+
+.another-article {
+  flex-basis: 900px;
+  padding: auto 30px;
+  margin: 0 25px;
+}
+
+.more-in-subject,
+.editors-picks {
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  max-width: 1000px;
+}
+
+h4.title {
+  flex-basis: 900px;
+  height: 50px;
+}
+
+.suggest-article {
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  margin-top: 0;
+}
+
+.image {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.image img {
+  width: 250px;
+  height: auto;
+
+}
+
+.image figcaption {
+  color: gray;
+  font-size: 0.6em;
+  text-align: right;
+}
+
+.image h5,
+.image p {
+  margin: 5px;
+}
+.image p time {
+  margin: 5px;
+  color: gray;
+  font-size: 0.6em;
+}
+
+
+.most-popular {
+  flex-basis: 350px;
+  padding: auto 30px;
+}
+
+.most-popular li {
+  list-style: none;
+  border-top: thin solid gray;
+  padding: 20px 0;
+}
+
+.page-footer {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 50px;
+}
+
+.page-footer hr {
+  border: double solid gray;
+  height: 2px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer-logo-nyt {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.footer-logo-nyt svg {
+  width: 200px;
+}
+
+.footer-logo-nyt .dir-homepage a {
+  color: rgb(39, 133, 194);
+  font-size: 0.6em;
+}
+
+.list-nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.subject h4 {
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.list-nav li {
+  list-style: none;
+}
+
+.list-nav a {
+  color: inherit;
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+.list-nav a:hover {
+  text-decoration: underline;
+}
+
+.page-footer .footer-navbars {
+  margin: 10px;
+  padding-top: 10px;
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  color: gray;
+  font-size: 0.6em;
+  justify-content: space-around;
+  border-top: thin solid darkgray;
+}
