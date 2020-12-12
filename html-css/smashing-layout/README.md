@@ -2,4 +2,4 @@
 
 ** Pre-layout **
 
-![Image](images/smashing.png)
+![Image](images/smashing-layout.png)
