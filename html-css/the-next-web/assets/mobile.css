@@ -1,0 +1,580 @@
+.navbar {
+  display: flex;
+  align-content: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 30px;
+  padding: 5px 20px;
+
+  color: gray;
+  background-color: black;
+}
+
+.navbar li {
+  margin: 0 5px;
+
+  font-size: .8em;
+}
+
+.navbar__group-top {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.navbar__group-end {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+/* navbar sticky */
+.navbar--sticky {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 40px;
+  padding: 10px 10px 10px 20px;
+
+  color: gray;
+  background-color: whitesmoke;
+  box-shadow: 0 20px 32px lightgray;
+}
+
+.navbar--sticky__group-top {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.navbar--sticky__group-top__nav {
+  display: none;
+}
+
+.navbar--sticky__group-top li {
+  margin-right: 1em;
+
+  text-transform: uppercase;
+
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.navbar--sticky__group-end {
+  position: relative;
+  top: 0;
+  right: -10px;
+
+  width: 40px;
+  height: 40px;
+
+  border-left: 2px solid lightgray;
+}
+
+.navbar--sticky__group-end img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.story {
+  margin-bottom: 10px;
+}
+
+.story {
+  position: relative;
+
+  width: 100%;
+  height: 50vw;
+
+  background-image: url('../images/bike.jpg');
+  background-size: cover;
+}
+
+.story__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 70%;
+  height: auto;
+  padding: 20px;
+  display: none;
+}
+
+.story__logo img {
+  width: 80%;
+  height: auto;
+}
+
+.story__date {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+
+  width: auto;
+  height: auto;
+
+  color: white;
+}
+
+.story_img {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+.story__header {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+
+  width: 100%;
+  height: auto;
+  max-height: 60%;
+  padding: 20px;
+}
+
+.story__header__title {
+  position: absolute;
+  bottom: 30px;
+  height: auto;
+  width: calc(100%-20px);
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.s-h__section {
+  color: white;
+
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.s-h__title {
+  color: white;
+
+  font-size: 2em;
+  line-height: 1em;
+}
+
+.story__header__byline {
+  position: absolute;
+  bottom: 2%;
+  left: 20px;
+
+  display: flex;
+  flex-flow: row nowrap;
+
+  color: gray;
+}
+
+.icon-byline {
+  height: .8em;
+}
+
+.story__header__byline li {
+  margin-right: 10px;
+}
+
+.story__header__byline a {
+  color: gray;
+}
+
+.story__img {
+  position: relative;
+  z-index: 0;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgb(245, 0, 34);
+  background: linear-gradient(160deg, rgb(240, 30, 30) 0%, rgba(240, 30, 30, .6) 25%, rgba(0, 0, 0, .8) 55%, rgba(0, 0, 0, 1) 100%);
+}
+
+.cover .story:not(:first-child) .story__img {
+  position: relative;
+  z-index: 0;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgb(245, 0, 34);
+  background: linear-gradient(160deg, rgb(71, 71, 71) 0%, rgba(141, 141, 141, .6) 25%, rgba(0, 0, 0, .8) 55%, rgba(0, 0, 0, 1) 100%);
+}
+
+/* main title */
+.latest-news {
+  margin: auto;
+  padding: 50px 50px;
+}
+
+.main__title {
+  color: orangered;
+
+  font-size: 1.5em;
+  font-weight: 900;
+  margin: 20px 0px;
+}
+
+.news {
+  width: 100%;
+  height: auto;
+  clear: both;
+}
+
+.news__img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+
+  background-image: url("../images/Google-is-down-513x270.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  margin-right: 20px;
+}
+
+.news:nth-child(2n) .news__img {
+  background-image: url("../images/Methods-App-540x270.jpg");
+  float: left;
+
+}
+
+.news__title {
+  font-size: 1em;
+  color: black;
+  font-weight: normal;
+}
+
+.news__byline li {
+  margin-right: 20px;
+  display: inline;
+  font-size: 0.8em;
+  color: gray;
+}
+
+.news__byline * {
+  color: inherit;
+  font-size: inherit;
+}
+/* investement */
+
+.investments {
+  margin: auto;
+  padding: 50px;
+}
+
+.deal-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.deal-header__nav a {
+  color: orangered;
+}
+
+/* .inv-stories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(300px, auto);
+  grid-gap: 20px;
+} */
+
+.card-story {
+  width: 100%;
+  height: auto;
+  background-color: #fffaf8;
+  margin: 10px;
+}
+
+.card-story__header {
+  position: relative;
+}
+.card-story__img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+}
+
+.card-story__img img {
+  width: 60px;
+  height: 60px;
+}
+
+.card-story__name {
+  width: 100%;
+  height: 40px;
+  background-color: orangered;
+  padding: 10px 20px 10px 80px;
+  color: white;
+  font-weight: bold;
+
+}
+
+.card-story__info {
+  width: 100%;
+  height: 60px;
+  background-color: #ffebe7;
+  padding: 10px 20px 10px 80px;
+  color: black;
+}
+
+.card-story__info h5 {
+  color: gray;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.card-story__body {
+  width: 100%;
+  height: auto;
+  padding: 25px 20px 10px;
+  border-bottom: 1px solid orange;
+}
+.card-story__body a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.card-story__body span {
+  font-weight: 300;
+  font-size: 0.8em;
+  padding-left: 10px;
+}
+
+.card-story__footer {
+  padding: 20px;
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.card-story__footer span {
+  font-weight: inherit;
+  font-size: inherit;
+  color: gray;
+}
+
+/* .popular {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+  grid-template-rows: minmax(300px, auto);
+  grid-gap: 20px;
+  padding: 50px;
+} */
+.popular {
+  padding: 50px;
+}
+.sections {
+  min-width: 350px;
+  width: 100%;
+  height: auto;
+  list-style: none;
+  margin-top: 0;
+}
+
+.most-popular {
+  min-width: 300px;
+  width: 100%;
+  height: 350px;
+  background-image: url("../images/Methods-App-540x270.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  position: relative;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.most-popular--gradient {
+  background-image: linear-gradient(-180deg, rgba(20, 20, 20, 0.2) 0%,rgba(20,20,20,0.8) 80%, rgba(20,20,20,1) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.most-popular__title {
+  position: absolute;
+  bottom: 30px;
+  width: calc(100%-40px);
+  height: auto;
+  max-height: 150px;
+  overflow: hidden;
+}
+
+.m-p__title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.m-p__section {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.most-popular__byline {
+  position: absolute;
+  bottom: 10px;
+}
+
+.most-popular__byline span {
+  font-size: 0.6em;
+  color: gray;
+  margin-right: 10px;
+}
+
+.latest-popular {
+  width: 100%;
+  height: 100px;
+  padding: 20px 120px 20px 20px;
+  background-color: #fff4f2;
+  overflow: hidden;
+  color: orangered;
+  position: relative;
+  margin: 2px 0;
+
+}
+
+.latest-popular__section {
+  font-weight: lighter;
+  margin: 3px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+
+}
+
+.headline-popular {
+  font-size: 0.8em;
+  padding: 10px 2px;
+  border-bottom: 1px solid gray;
+}
+
+.headline-popular::before {
+  content: "\2022";
+  color: orangered;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: 0;
+
+}
+
+.latest-popular__img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url('../images/Charby-Edge-Pro-540x270.jpg');
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-nav {
+  background-color: #161615;
+  width: 100%;
+  height: auto;
+  padding: 40px 5px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.footer-nav__social {
+  display: inline-block;
+  margin: 10px auto ;
+}
+
+.footer-nav__social button {
+  background-color: gray;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  margin: 5px;
+}
+
+.footer-nav__social button:hover {
+  background-color: black;
+}
+
+.footer-nav__bar {
+  list-style: none;
+}
+
+.footer-nav__bar li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 1.5em;
+  color: gray;
+  font-size: 0.8em;
+}
+
+.copyright {
+  background-color: black;
+  padding: 40px 5px;
+  color: gray;
+}
+.copyright p {
+  text-align: center;
+  font-size: 0.8em;
+
+}
+.copyright img {
+  height: 0.8em;
+  width: auto;
+}
+
+.copyright a {
+  color: white;
+  text-transform: uppercase;
+
+}
+
+
+@media screen and (max-width: 499px) {
+  main {
+    margin-top: 50px;
+  }
+  .navbars {
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    width: 100%;
+  }
+  .navbar {
+    display: none;
+  }
+
+  .navbar--sticky__group-top {
+    display: none;
+  }
+  .navbar--sticky__group-end {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 0;
+  }
+}

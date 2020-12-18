@@ -1,0 +1,8 @@
+/* setup css */
+@import url("setup.css");
+/* smaller than tablets and mobile */
+@import url("mobile.css") screen and (max-width: 799px);
+/* tablets and up */
+@import url("destop.css") screen and (min-width: 800px);
+/* destop and up */
+/* @import url("destop.css") screen and (min-width: 1199px); */

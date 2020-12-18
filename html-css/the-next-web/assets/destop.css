@@ -1,0 +1,692 @@
+.navbar {
+  display: flex;
+  align-content: center;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 30px;
+  padding: 5px 20px;
+
+  color: gray;
+  background-color: black;
+}
+
+.navbar li {
+  margin: 0 5px;
+
+  font-size: .8em;
+}
+
+.navbar__group-top {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.navbar__group-end {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+/* navbar sticky */
+.navbar--sticky {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 50px;
+  padding: 10px 10px 10px 20px;
+
+  color: gray;
+  background-color: whitesmoke;
+  box-shadow: 0 20px 32px lightgray;
+}
+
+.navbar--sticky__group-top {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.navbar--sticky__group-top__nav {
+  display: none;
+}
+
+.navbar--sticky__group-top li {
+  margin-right: 20px;
+
+  text-transform: uppercase;
+
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navbar--sticky__group-end {
+  position: relative;
+  top: 0;
+  right: -10px;
+
+  width: 50px;
+  height: 50px;
+
+  border-left: 2px solid lightgray;
+}
+
+.navbar--sticky__group-end img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+/* cover story */
+.cover {
+  display: grid;
+
+  padding: 10px;
+
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(2, minmax(auto, 17vw));
+  gap: 10px;
+}
+
+.story {
+  position: relative;
+
+  width: 100%;
+  height: 17vw;
+
+  background-image: url('../images/bike.jpg');
+  background-size: cover;
+}
+
+.cover .story:first-child {
+  height: calc(34vw + 10px);
+
+  grid-area: 1 / 1 / 3 / 2;
+}
+
+.story__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 70%;
+  height: auto;
+  padding: 20px;
+}
+
+.story__logo img {
+  width: 80%;
+  height: auto;
+}
+
+.story__date {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+
+  width: 30%;
+  height: auto;
+
+  color: white;
+}
+
+.story_img {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+.story__header {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+
+  width: 100%;
+  height: auto;
+  max-height: 60%;
+  padding: 20px;
+}
+
+.story__header__title {
+  position: absolute;
+  bottom: 30px;
+
+  overflow: hidden;
+
+  width: calc(100%-20px);
+  height: auto;
+  padding: 10px 0;
+}
+
+.s-h__section {
+  color: white;
+
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.s-h__title {
+  color: white;
+
+  font-size: 3em;
+  line-height: 1em;
+}
+
+.story__header__byline {
+  position: absolute;
+  bottom: 2%;
+  left: 20px;
+
+  display: flex;
+  flex-flow: row nowrap;
+
+  color: gray;
+}
+
+.icon-byline {
+  height: .8em;
+}
+
+.story__header__byline li {
+  margin-right: 10px;
+}
+
+.story__header__byline a {
+  color: gray;
+}
+
+.cover .story:not(:first-child) .story__date {
+  display: none;
+}
+
+.cover .story:not(:first-child) .story__header {
+  overflow: hidden;
+
+  width: 100%;
+  height: 80%;
+  max-height: 160px;
+}
+
+.cover .story:not(:first-child) a {
+  font-size: inherit;
+}
+
+.cover .story:not(:first-child) .s-h__section {
+  font-size: 0.8em;
+}
+.cover .story:not(:first-child) .s-h__title {
+  font-size: 1.2em;
+}
+.cover .story:not(:first-child) .story__header__byline li {
+  font-size: 0.8em;
+}
+
+.cover .story:not(:first-child) .s-h__section a {
+  color: white;
+
+  font-size: 1em;
+}
+
+.story__img {
+  position: relative;
+  z-index: 0;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgb(245, 0, 34);
+  background: linear-gradient(160deg, rgb(240, 30, 30) 0%, rgba(240, 30, 30, .6) 25%, rgba(0, 0, 0, .8) 55%, rgba(0, 0, 0, 1) 100%);
+}
+
+.cover .story:not(:first-child) .story__img {
+  position: relative;
+  z-index: 0;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgb(245, 0, 34);
+  background: linear-gradient(160deg, rgb(71, 71, 71) 0%, rgba(141, 141, 141, .6) 25%, rgba(0, 0, 0, .8) 55%, rgba(0, 0, 0, 1) 100%);
+}
+
+/* main title */
+.latest-news {
+  margin: auto;
+  padding: 50px 50px;
+}
+
+.main__title {
+  color: orangered;
+
+  font-size: 2em;
+  font-weight: 900;
+}
+
+
+.latest {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(300px, auto);
+  grid-gap: 20px;}
+
+.news {
+  width: 100%;
+  min-width: 250px;
+  max-width: 350px;
+  height: auto;
+}
+
+.news__img {
+  display: block;
+
+  width: 100%;
+  height: 50%;
+
+  background-image: url("../images/Google-is-down-513x270.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news:nth-child(2n) .news__img {
+  background-image: url("../images/Methods-App-540x270.jpg");
+}
+
+.news__title {
+  color: black;
+
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.news__byline li {
+  display: inline;
+
+  margin-right: 20px;
+
+  color: gray;
+
+  font-size: 0.8em;
+}
+
+.news__byline * {
+  color: inherit;
+
+  font-size: inherit;
+}
+/* investement */
+
+.investments {
+  margin: auto;
+  padding: 50px;
+}
+
+.deal-header {
+  display: flex;
+  align-items: baseline;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+
+.deal-header__nav a {
+  color: orangered;
+}
+
+.inv-stories {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(300px, auto);
+  grid-gap: 20px;
+}
+
+.card-story {
+  width: 100%;
+  height: auto;
+
+  background-color: #fffaf8;
+}
+
+.card-story__header {
+  position: relative;
+}
+.card-story__img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+}
+
+.card-story__img img {
+  width: 60px;
+  height: 60px;
+}
+
+.card-story__name {
+  width: 100%;
+  height: 40px;
+  padding: 10px 20px 10px 80px;
+
+  color: white;
+  background-color: orangered;
+
+  font-weight: bold;
+
+}
+
+.card-story__info {
+  width: 100%;
+  height: 60px;
+  padding: 10px 20px 10px 80px;
+
+  color: black;
+  background-color: #ffebe7;
+}
+
+.card-story__info h5 {
+  margin-top: 5px;
+
+  color: gray;
+
+  font-size: 0.8em;
+}
+
+.card-story__body {
+  width: 100%;
+  height: auto;
+  padding: 25px 20px 10px;
+
+  border-bottom: 1px solid orange;
+}
+.card-story__body a {
+  display: block;
+
+  margin-bottom: 10px;
+}
+
+.card-story__body span {
+  padding-left: 10px;
+
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.card-story__footer {
+  padding: 20px;
+
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.card-story__footer span {
+  color: gray;
+
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.popular {
+  display: grid;
+
+  padding: 50px;
+
+  grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+  grid-template-rows: minmax(300px, auto);
+  grid-gap: 20px;
+}
+
+.sections {
+  width: 100%;
+  min-width: 350px;
+  height: auto;
+  margin-top: 0;
+
+  list-style: none;
+}
+
+.most-popular {
+  position: relative;
+
+  width: 100%;
+  min-width: 300px;
+  height: 250px;
+  margin-top: 20px;
+  padding: 20px;
+
+  color: white;
+  background-image: url("../images/Methods-App-540x270.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.most-popular--gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: linear-gradient(-180deg, rgba(20, 20, 20, 0.2) 0%,rgba(20,20,20,0.8) 80%, rgba(20,20,20,1) 100%);
+}
+
+.most-popular__title {
+  position: absolute;
+  bottom: 30px;
+
+  overflow: hidden;
+
+  width: calc(100%-40px);
+  height: auto;
+  max-height: 150px;
+}
+
+.m-p__title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.m-p__section {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.most-popular__byline {
+  position: absolute;
+  bottom: 10px;
+}
+
+.most-popular__byline span {
+  margin-right: 10px;
+
+  color: gray;
+
+  font-size: 0.6em;
+}
+
+.latest-popular {
+  position: relative;
+
+  overflow: hidden;
+
+  width: 100%;
+  height: 100px;
+  margin: 2px 0;
+  padding: 20px 120px 20px 20px;
+
+  color: orangered;
+  background-color: #fff4f2;
+
+}
+
+.latest-popular__section {
+  margin: 3px;
+
+  text-transform: uppercase;
+
+  font-size: 0.8em;
+  font-weight: lighter;
+
+}
+
+.headline-popular {
+  padding: 10px 2px;
+
+  border-bottom: 1px solid gray;
+
+  font-size: 0.8em;
+}
+
+.headline-popular::before {
+  display: inline-block;
+
+  width: 1em;
+  margin-left: 0;
+
+  content: "\2022";
+
+  color: orangered;
+
+  font-weight: bold;
+
+}
+
+.latest-popular__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 100px;
+  height: 100px;
+
+  background-image: url('../images/Charby-Edge-Pro-540x270.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+
+  width: 100%;
+  height: auto;
+  padding: 40px 5px;
+
+  background-color: #161615;
+}
+
+.footer-nav__social {
+  display: inline-block;
+
+  margin: 10px auto ;
+}
+
+.footer-nav__social button {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+
+  border: none;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.footer-nav__social button:hover {
+  background-color: black;
+}
+
+.footer-nav__bar {
+  list-style: none;
+}
+
+.footer-nav__bar li {
+  display: inline-block;
+
+  margin-right: 1.5em;
+
+  text-transform: uppercase;
+
+  color: gray;
+
+  font-size: 0.8em;
+}
+
+.copyright {
+  padding: 40px 5px;
+
+  color: gray;
+  background-color: black;
+}
+.copyright p {
+  text-align: center;
+
+  font-size: 0.8em;
+
+}
+.copyright img {
+  width: auto;
+  height: 0.8em;
+}
+
+.copyright a {
+  text-transform: uppercase;
+
+  color: white;
+
+}
+
+@media screen and (max-width: 999px) {
+  .navbar--sticky__group-top li {
+    font-size: 0.8em;
+  }
+  .story__logo {
+    display: none;
+  }
+  .story__date {
+    width: auto;
+
+    font-size: 0.8em;
+  }
+  .s-h-section {
+    font-size: 1em;
+  }
+
+  .s-h__title {
+    font-size: 2em;
+  }
+
+  .story__header__byline li,
+  .story__header__byline img {
+    font-size: 0.8em;
+  }
+
+  .cover .story:not(:first-child) .s-h__title,
+   .cover .story:not(:first-child) .s-h__section {
+    font-size: 1em;
+  }
+  .cover .story:not(:first-child) .story__header {
+    padding: 10px;
+  }
+  .cover .story:not(:first-child) .story__header__byline li {
+    font-size: 0.6em;
+  }
+}
