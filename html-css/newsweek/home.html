@@ -1,0 +1,880 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Newsweek</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="shortcut icon" href="images/icon-N-16x16.png" type="image/png">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+  <!-- navbar in large screen and up -->
+  <header class="container-fluid">
+    <div class="d-none d-lg-block">
+      <div class="row bg-red py-3 ">
+
+        <div class="col">
+          <div class="d-none d-sm-block d-lg-none">
+            <img src="images/logo-newsweek-198x30.svg" alt="logo">
+          </div>
+        </div>
+
+        <div class="col d-none d-lg-block">
+          <img src="images/logo-newsweek.svg" alt="logo">
+        </div>
+
+        <div class="col d-flex justify-content-end align-items-end">
+          <button class="btn font-weight-bolder text-white text-uppercase">Login</button>
+          <button class="btn btn-small rounded-pill text-uppercase font-weight-bolder bg-yellow">Subcribe</button>
+        </div>
+      </div>
+    </div>
+    <!-- navbar fixed on medium screen and down -->
+    <div class="fixed-top d-lg-none">
+
+      <nav class="navbar navbar-dark bg-red">
+        <div class="d-none d-sm-block">
+          <img src="images/logo-newsweek-198x30.svg" alt="logo">
+        </div>
+        <div class="col d-flex justify-content-end align-items-end px-0">
+          <button class="btn font-weight-bolder text-white text-uppercase">Login</button>
+          <button class="btn btn-small rounded-pill text-uppercase font-weight-bolder bg-yellow">Subcribe</button>
+          <button class="navbar-toggler border-0 mx-2 px-0" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="col-sm-6 offset-sm-6 col-md-4 offset-md-8 bg-white shadow">
+          <div class="list-group ">
+
+            <div class="input-group my-2">
+              <input type="text" class="form-control" placeholder="Search">
+              <div class="input-group-prepend ">
+                <div class="input-group-text">
+                  <i class="fa fa-search"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="list-group-item py-1 border-0"><a href="" class="text-uppercase font-weight-bolder text-dark">U.S</a></div>
+            <div class="list-group-item py-1 border-0"><a href="" class="text-uppercase font-weight-bolder text-dark">World</a></div>
+            <div class="list-group-item py-1 border-0"><a href="" class="text-uppercase font-weight-bolder text-dark">Business</a></div>
+            <div class="list-group-item py-1 border-0"><a href="" class="text-uppercase font-weight-bolder text-dark">Tech & Science</a></div>
+            <div class="list-group-item py-1 border-0"><a href="" class="text-uppercase font-weight-bolder text-dark">Culture</a></div>
+            <div class="list-group-item py-1 border-0"><a href="" class="text-uppercase font-weight-bolder text-dark">Newsgeek</a></div>
+            <div class="list-group-item py-1 border-0"><a href="" class="text-uppercase font-weight-bolder text-dark">Sports</a></div>
+            <div class="list-group-item py-1 border-0"><a href="" class="text-uppercase font-weight-bolder text-dark">Health</a></div>
+            <div class="list-group-item py-1 border-0"><a href="" class="text-uppercase font-weight-bolder text-dark">Debate</a></div>
+            <div class="list-group-item py-1 border-0"><a href="" class="text-uppercase font-weight-bolder text-dark">Vantage</a></div>
+            <div class="list-group-item py-1 border-0"><a href="" class="text-uppercase font-weight-bolder text-dark">Weather</a></div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar border-bottom border-dark-50 d-none d-lg-flex flex-nowrap ">
+      <div class="nav-item px-2 border-right border-dark-50"><a href="" class="text-uppercase font-weight-bolder text-dark">U.S</a></div>
+      <div class="nav-item px-2 border-right border-dark-50"><a href="" class="text-uppercase font-weight-bolder text-dark">World</a></div>
+      <div class="nav-item px-2 border-right border-dark-50"><a href="" class="text-uppercase font-weight-bolder text-dark">Business</a></div>
+      <div class="nav-item px-2 border-right border-dark-50"><a href="" class="text-uppercase font-weight-bolder text-dark">Tech & Science</a></div>
+      <div class="nav-item px-2 border-right border-dark-50"><a href="" class="text-uppercase font-weight-bolder text-dark">Culture</a></div>
+      <div class="nav-item px-2 border-right border-dark-50"><a href="" class="text-uppercase font-weight-bolder text-dark">Newsgeek</a></div>
+      <div class="nav-item px-2 border-right border-dark-50"><a href="" class="text-uppercase font-weight-bolder text-dark">Sports</a></div>
+      <div class="nav-item px-2 border-right border-dark-50"><a href="" class="text-uppercase font-weight-bolder text-dark">Health</a></div>
+      <div class="nav-item px-2 border-right border-dark-50"><a href="" class="text-uppercase font-weight-bolder text-dark">Debate</a></div>
+      <div class="nav-item px-2 border-right border-dark-50"><a href="" class="text-uppercase font-weight-bolder text-dark">Vantage</a></div>
+      <div class="nav-item px-2"><a href="" class="text-uppercase font-weight-bolder text-dark">Weather</a></div>
+
+      <div class="nav-item px-2 form-inline">
+        <div class="input-group">
+          <input type="text" class="form-control border-0" placeholder="Search">
+          <div class="input-group-prepend ">
+            <div class="input-group-text bg-white border-0">
+              <i class="fa fa-search"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="d-flex align-items-baseline py-2 px-4 border-bottom border-dark-50">
+      <h6 class="text-uppercase font-weight-bolder">Trending</h6>
+      <div class=""><a class="text-uppercase font-weight-bolder text-gray px-2" href="">Joe Biden</a></div>
+      <div class=""><a class="text-uppercase font-weight-bolder text-gray px-2" href="">Donald Trump</a></div>
+      <div class=""><a class="text-uppercase font-weight-bolder text-gray px-2" href="">Coronavirus</a></div>
+      <div class=""><a class="text-uppercase font-weight-bolder text-gray px-2" href="">Vaccine</a></div>
+      <div class=""><a class="text-uppercase font-weight-bolder text-gray px-2" href="">Stimulus Pakge</a></div>
+
+    </div>
+    <hr class="p-0 mb-3 mt-1" style="border: 5px solid lightgray">
+
+  </header>
+  <!-- articles -->
+
+  <main class="container-fluid">
+    <div class="row d-flex">
+
+      <div class="col-lg-9 col-md-12 row">
+        <div class="col-lg-5 col-md-6 d-sm-none d-md-block">
+          <h5 class="text-uppercase text-gray font-weight-bolder">Featured stories</h5>
+
+          <div class="card border-0">
+            <div class="card__img">
+              <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+              <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+                U.S
+              </span>
+            </div>
+            <div class="card-body px-0">
+              <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+              <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+                to Newsweek.</p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card__img">
+              <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+              <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+                U.S
+              </span>
+            </div>
+            <div class="card-body px-0">
+              <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+              <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+                to Newsweek.</p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card__img">
+              <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+              <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+                U.S
+              </span>
+            </div>
+            <div class="card-body px-0">
+              <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+              <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+                to Newsweek.</p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card__img">
+              <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+              <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+                U.S
+              </span>
+            </div>
+            <div class="card-body px-0">
+              <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+              <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+                to Newsweek.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-7 col-md-6 col-12">
+          <h5 class="text-uppercase text-gray font-weight-bolder">Top story</h5>
+
+          <div class="card border-0">
+            <div class="card__img">
+              <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+              <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+                World
+              </span>
+            </div>
+            <div class="card-body px-0 border-0">
+              <h4 class="card-title font-weight-bolder">Experts Increasingly See Hack on US as Attack, Opening Way for Retaliation</h4>
+              <p class="card-text">"Accessing the system was unauthorized and illegal, changing the code with malicious intent was an attack," a
+                cybersecurity expert familiar with the situation told Newsweek.</p>
+            </div>
+          </div>
+
+          <h5 class="text-uppercase text-gray font-weight-bolder">My turn</h5>
+          <div class="row">
+            <div class="col">
+              <div class="card px-0 border-0">
+                <div class="card__img">
+                  <img src="images/kevin-mccarthy.jpg" alt="" class="card-img-top">
+                  <span class="card__img__topic bg-secondary text-uppercase px-1 py-1">
+                    <small>Culture</small>
+                  </span>
+                </div>
+                <div class="card-body px-0 border-0">
+                  <h5 class="card-title font-weight-bolder text-gray">'I've Eaten Chick-Fil-A for 135 Days Straight'</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card px-0 border-0">
+                <div class="card__img">
+                  <img src="images/kevin-mccarthy.jpg" alt="" class="card-img-top">
+                  <span class="card__img__topic bg-secondary text-uppercase px-1 py-1">
+                    <small>Culture</small>
+                  </span>
+                </div>
+                <div class="card-body px-0 border-0">
+                  <h5 class="card-title font-weight-bolder text-gray">'I've Eaten Chick-Fil-A for 135 Days Straight'</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card px-0 border-0">
+                <div class="card__img">
+                  <img src="images/kevin-mccarthy.jpg" alt="" class="card-img-top">
+                  <span class="card__img__topic bg-secondary text-uppercase px-1 py-1">
+                    <small>Culture</small>
+                  </span>
+                </div>
+                <div class="card-body px-0 border-0">
+                  <h5 class="card-title font-weight-bolder text-gray">'I've Eaten Chick-Fil-A 'I've Eaten Chick-Fifor 135 Days Straight'</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h5 class="text-uppercase text-gray font-weight-bolder">My turn</h5>
+          <div class="row">
+            <div class="col">
+              <div class="card px-0 border-0">
+                <div class="card__img">
+                  <img src="images/kevin-mccarthy.jpg" alt="" class="card-img-top">
+                  <span class="card__img__topic bg-secondary text-uppercase px-1 py-1">
+                    <small>Culture</small>
+                  </span>
+                </div>
+                <div class="card-body px-0 border-0">
+                  <h4 class="card-title font-weight-bolder text-gray">'I've Eaten Chick-Fil-A for 135 Days Straight'</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card px-0 border-0">
+                <div class="card__img">
+                  <img src="images/kevin-mccarthy.jpg" alt="" class="card-img-top">
+                  <span class="card__img__topic bg-secondary text-uppercase px-1 py-1">
+                    <small>Culture</small>
+                  </span>
+                </div>
+                <div class="card-body px-0 border-0">
+                  <h5 class="card-title font-weight-bolder text-gray">'I've Eaten Chick-Fil-A for 135 Days Straight'</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card px-0 border-0">
+                <div class="card__img">
+                  <img src="images/kevin-mccarthy.jpg" alt="" class="card-img-top">
+                  <span class="card__img__topic bg-secondary text-uppercase px-1 py-1">
+                    <small>Culture</small>
+                  </span>
+                </div>
+                <div class="card-body px-0 border-0">
+                  <h4 class="card-title font-weight-bolder text-gray">'I've Eaten Chick-Fil-A 'I've Eaten Chick-Fifor 135 Days Straight'</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5 class="text-uppercase font-weight-bolder text-gray">More stories</h5>
+          <hr>
+
+          <div class="card border-0">
+            <div class="row no-gutters">
+              <div class="col-3 p-2">
+                <img src="images/kevin-mccarthy.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-9 p-2">
+                <div class="card-body p-0 border-0">
+                  <h5 class="card-title text-dark font-weight-bolder py-0 mt-0 mb-2">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                    This content is a little bit longer.e with malicious intent was an attack
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="card border-0">
+            <div class="row no-gutters">
+              <div class="col-3 p-2">
+                <img src="images/kevin-mccarthy.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-9 p-2">
+                <div class="card-body p-0 border-0">
+                  <h5 class="card-title text-dark font-weight-bolder py-0 mt-0 mb-2">Card title x-special/nautilus-clipboard cut file:///home/david-roark/Pictures/logo-newsweek-198x30.svg</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                    This content is a little bit longer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="card border-0">
+            <div class="row no-gutters">
+              <div class="col-3 p-2">
+                <img src="images/kevin-mccarthy.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-9 p-2">
+                <div class="card-body p-0 border-0">
+                  <h5 class="card-title text-dark font-weight-bolder py-0 mt-0 mb-2">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                    This content is a little bit longer. "Accessing the system was unauthorized and illegal, changing the code with malicious intent was an attack," a
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="card border-0">
+            <div class="row no-gutters">
+              <div class="col-3 p-2">
+                <img src="images/kevin-mccarthy.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-9 p-2">
+                <div class="card-body p-0 border-0">
+                  <h5 class="card-title text-dark font-weight-bolder py-0 mt-0 mb-2">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-3 col-md-12">
+        <h5 class="text-uppercase text-gray font-weight-bolder">The debate</h5>
+        <hr class=" border-bottom border-secondary">
+
+        <div class="card border-0">
+          <div class="row no-gutters">
+            <div class="card-img col-3">
+              <img src="images/chick-fil-fast-food-pennyslvania.jpg" alt="" class="card-img rounded-circle">
+            </div>
+            <div class="col-9">
+              <div class="card-body py-0 my-0">
+                <h5 class="title text-dark font-weight-bolder">Populism Are the GOP's Future</h5>
+                <p class="card-text text-uppercase text-dark">By <span class="text-gray">R.R. Reno</span> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="my-4 position-relative border border-dark-50" style="padding: 1px 0 0 0">
+          <span class="position-absolute bg-dark text-white font-weight-bolder rounded-circle py-1 px-2 ct-centered">VS</span>
+        </div>
+
+        <div class="card border-0">
+          <div class="row no-gutters">
+            <div class="col-9">
+              <div class="card-body py-0 my-0">
+                <h5 class="title text-dark font-weight-bolder">Populism Are the GOP's Future</h5>
+                <p class="card-text text-uppercase text-dark">By <span class="text-gray">R.R. Reno</span> </p>
+              </div>
+            </div>
+            <div class="card-img col-3">
+              <img src="images/chick-fil-fast-food-pennyslvania.jpg" alt="" class="card-img rounded-circle">
+            </div>
+          </div>
+        </div>
+        <hr>
+
+        <h5 class="text-uppercase text-gray font-weight-bolder">Opinion</h5>
+        <div class="card border-0">
+          <div class="row no-gutters">
+            <div class="card-img col-3">
+              <img src="images/chick-fil-fast-food-pennyslvania.jpg" alt="" class="card-img rounded-circle">
+            </div>
+            <div class="col-9">
+              <div class="card-body py-0 my-0">
+                <h5 class="title text-dark font-weight-bolder">Populism Are the GOP's Future</h5>
+                <p class="card-text text-uppercase text-dark">By <span class="text-gray">R.R. Reno</span> </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="card border-0">
+          <div class="row no-gutters">
+            <div class="card-img col-3">
+              <img src="images/chick-fil-fast-food-pennyslvania.jpg" alt="" class="card-img rounded-circle">
+            </div>
+            <div class="col-9">
+              <div class="card-body py-0 my-0">
+                <h5 class="title text-dark font-weight-bolder">Populism Are the GOP's Future</h5>
+                <p class="card-text text-uppercase text-dark">By <span class="text-gray">R.R. Reno</span> </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="card border-0">
+          <div class="row no-gutters">
+            <div class="card-img col-3">
+              <img src="images/chick-fil-fast-food-pennyslvania.jpg" alt="" class="card-img rounded-circle">
+            </div>
+            <div class="col-9">
+              <div class="card-body py-0 my-0">
+                <h5 class="title text-dark font-weight-bolder">Populism Are the GOP's Future</h5>
+                <p class="card-text text-uppercase text-dark">By <span class="text-gray">R.R. Reno</span> </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="card border-0">
+          <div class="row no-gutters">
+            <div class="card-img col-3">
+              <img src="images/chick-fil-fast-food-pennyslvania.jpg" alt="" class="card-img rounded-circle">
+            </div>
+            <div class="col-9">
+              <div class="card-body py-0 my-0">
+                <h5 class="title text-dark font-weight-bolder">Populism Are the GOP's Future</h5>
+                <p class="card-text text-uppercase text-dark">By <span class="text-gray">R.R. Reno</span> </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+        </div>
+          <div class="card border-0">
+            <div class="row no-gutters">
+              <div class="card-img col-3">
+                <img src="images/chick-fil-fast-food-pennyslvania.jpg" alt="" class="card-img rounded-circle">
+              </div>
+              <div class="col-9">
+                <div class="card-body py-0 my-0">
+                  <h5 class="title text-dark font-weight-bolder">Populism Are the GOP's Future</h5>
+                  <p class="card-text text-uppercase text-dark">By <span class="text-gray">R.R. Reno</span> </p>
+                </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="card border-0">
+            <div class="row no-gutters">
+              <div class="card-img col-3">
+                <img src="images/chick-fil-fast-food-pennyslvania.jpg" alt="" class="card-img rounded-circle">
+              </div>
+              <div class="col-9">
+                <div class="card-body py-0 my-0">
+                  <h5 class="title text-dark font-weight-bolder">Populism Are the GOP's Future</h5>
+                  <p class="card-text text-uppercase text-dark">By <span class="text-gray">R.R. Reno</span> </p>
+                </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="card border-0">
+            <div class="row no-gutters">
+              <div class="card-img col-3">
+                <img src="images/chick-fil-fast-food-pennyslvania.jpg" alt="" class="card-img rounded-circle">
+              </div>
+              <div class="col-9">
+                <div class="card-body py-0 my-0">
+                  <h5 class="title text-dark font-weight-bolder">Populism Are the GOP's Future</h5>
+                  <p class="card-text text-uppercase text-dark">By <span class="text-gray">R.R. Reno</span> </p>
+                </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="card border-0">
+            <div class="row no-gutters">
+              <div class="card-img col-3">
+                <img src="images/chick-fil-fast-food-pennyslvania.jpg" alt="" class="card-img rounded-circle">
+              </div>
+              <div class="col-9">
+                <div class="card-body py-0 my-0">
+                  <h5 class="title text-dark font-weight-bolder">Populism Are the GOP's Future</h5>
+                  <p class="card-text text-uppercase text-dark">By <span class="text-gray">R.R. Reno</span> </p>
+                </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="card border-0">
+            <div class="row no-gutters">
+              <div class="card-img col-3">
+                <img src="images/chick-fil-fast-food-pennyslvania.jpg" alt="" class="card-img rounded-circle">
+              </div>
+              <div class="col-9">
+                <div class="card-body py-0 my-0">
+                  <h5 class="title text-dark font-weight-bolder">Populism Are the GOP's Future</h5>
+                  <p class="card-text text-uppercase text-dark">By <span class="text-gray">R.R. Reno</span> </p>
+                </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="card border-0">
+            <div class="row no-gutters">
+              <div class="card-img col-3">
+                <img src="images/chick-fil-fast-food-pennyslvania.jpg" alt="" class="card-img rounded-circle">
+              </div>
+              <div class="col-9">
+                <div class="card-body py-0 my-0">
+                  <h5 class="title text-dark font-weight-bolder">Populism Are the GOP's Future</h5>
+                  <p class="card-text text-uppercase text-dark">By <span class="text-gray">R.R. Reno</span> </p>
+                </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+      </div>
+    </div>
+
+    <!-- The magazin -->
+    <div>
+      <h3 class="text-uppercase text-center"><img src="images/icon-N-32x32.png" alt=""> In the magazin</h3>
+      <hr>
+    </div>
+    <div class="d-flex row">
+      <div class="col-md-3 col-12">
+        <div class="card border-0">
+          <div class="card__img">
+            <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+            <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+              U.S
+            </span>
+          </div>
+          <div class="card-body px-0">
+            <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+            <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+              to Newsweek.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-12">
+        <div class="card border-0">
+          <div class="card__img">
+            <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+            <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+              U.S
+            </span>
+          </div>
+          <div class="card-body px-0">
+            <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+            <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+              to Newsweek.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-12">
+        <div class="card border-0">
+          <div class="card__img">
+            <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+            <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+              U.S
+            </span>
+          </div>
+          <div class="card-body px-0">
+            <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+            <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+              to Newsweek.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-12">
+        <div class="card border-0">
+          <div class="card__img">
+            <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+            <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+              U.S
+            </span>
+          </div>
+          <div class="card-body px-0">
+            <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+            <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+              to Newsweek.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-12">
+        <div class="card border-0">
+          <div class="card__img">
+            <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+            <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+              U.S
+            </span>
+          </div>
+          <div class="card-body px-0">
+            <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+            <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+              to Newsweek.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-12">
+        <div class="card border-0">
+          <div class="card__img">
+            <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+            <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+              U.S
+            </span>
+          </div>
+          <div class="card-body px-0">
+            <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+            <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+              to Newsweek.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-12">
+        <div class="card border-0">
+          <div class="card__img">
+            <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+            <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+              U.S
+            </span>
+          </div>
+          <div class="card-body px-0">
+            <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+            <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+              to Newsweek.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div>
+      <h3 class="text-uppercase text-center"><img src="images/icon-N-32x32.png" alt=""> Editor's pick</h3>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 col-12">
+        <div class="card border-0">
+          <div class="card__img">
+            <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+            <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+              U.S
+            </span>
+          </div>
+          <div class="card-body px-0">
+            <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+            <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+              to Newsweek.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-12">
+        <div class="card border-0">
+          <div class="card__img">
+            <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+            <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+              U.S
+            </span>
+          </div>
+          <div class="card-body px-0">
+            <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+            <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+              to Newsweek.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-12">
+        <div class="card border-0">
+          <div class="card__img">
+            <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+            <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+              U.S
+            </span>
+          </div>
+          <div class="card-body px-0">
+            <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+            <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+              to Newsweek.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-12">
+        <div class="card border-0">
+          <div class="card__img">
+            <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+            <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+              U.S
+            </span>
+          </div>
+          <div class="card-body px-0">
+            <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+            <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+              to Newsweek.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-12">
+        <div class="card border-0">
+          <div class="card__img">
+            <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+            <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+              U.S
+            </span>
+          </div>
+          <div class="card-body px-0">
+            <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+            <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+              to Newsweek.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-12">
+        <div class="card border-0">
+          <div class="card__img">
+            <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+            <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+              U.S
+            </span>
+          </div>
+          <div class="card-body px-0">
+            <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+            <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+              to Newsweek.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-12">
+        <div class="card border-0">
+          <div class="card__img">
+            <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+            <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+              U.S
+            </span>
+          </div>
+          <div class="card-body px-0">
+            <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+            <p class="card-text">"We still believe that the risk of conflict is rising," the South China Sea Probing Initiative said in a statement sent
+              to Newsweek.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <hr>
+    <div>
+
+  <h3 class="text-red text-uppercase">U.S.</h3>
+  <div class="row">
+    <div class="col-md-4 col-12">
+      <div class="card border-0">
+        <div class="card__img d-none d-md-block">
+          <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+          <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+            U.S
+          </span>
+        </div>
+        <div class="card-body px-0">
+          <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-12">
+      <div class="card border-0">
+        <div class="card__img d-none d-md-block">
+          <img src="images/kevin-mccarthy.jpg" class="card-img-top" alt="...">
+          <span class="card__img__topic text-red text-uppercase bg-light px-2 py-1">
+            U.S
+          </span>
+        </div>
+        <div class="card-body px-0">
+          <h4 class="card-title font-weight-bolder">Could South China Sea Conflict Heat Up Before Joe Biden Presidency?</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-12">
+      <div class="card border-0">
+        <div class="row no-gutters">
+          <div class="col-3 p-2">
+            <img src="images/kevin-mccarthy.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-9 p-2">
+            <div class="card-body p-0 border-0">
+              <h5 class="card-title text-dark font-weight-bolder py-0 mt-0 mb-2">Card title</h5>
+
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="card border-0">
+        <div class="row no-gutters">
+          <div class="col-3 p-2">
+            <img src="images/kevin-mccarthy.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-9 p-2">
+            <div class="card-body p-0 border-0">
+              <h5 class="card-title text-dark font-weight-bolder py-0 mt-0 mb-2">Card title</h5>
+
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="card border-0">
+        <div class="row no-gutters">
+          <div class="col-3 p-2">
+            <img src="images/kevin-mccarthy.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-9 p-2">
+            <div class="card-body p-0 border-0">
+              <h5 class="card-title text-dark font-weight-bolder py-0 mt-0 mb-2">Card title is to loooooooooooooooooooooooooooooooooooong</h5>
+
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </div>
+
+  </main>
+
+  <footer class="mt-1 px-5 py-5">
+    <div class="d-flex justify-content-between flex-wrap">
+      <div class="row align-items-baseline">
+        <img src="images/logo-newsweek-red-198x30.svg" alt="">
+         <span class="text-uppercase"> &copy; 2020 Newsweek digital LLC</span>
+      </div>
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item rounded-circle mx-1 px-3 py-2"><i class="fa fa-facebook"></i></li>
+        <li class="list-group-item rounded-circle mx-1 px-3 py-2"><i class="fa fa-twitter"></i></li>
+        <li class="list-group-item rounded-circle mx-1 px-3 py-2"><i class="fa fa-instagram"></i></li>
+        <li class="list-group-item rounded-circle mx-1 px-3 py-2"><i class="fa fa-linkedin"></i></li>
+      </ul>
+    </div>
+    <hr>
+    <ul class="list-group list-group-horizontal">
+      <li class="list-group-item border-0">About Us</li>
+      <li class="list-group-item border-0">Contact Us</li>
+      <li class="list-group-item border-0">Copyright</li>
+      <li class="list-group-item border-0">Sales</li>
+      <li class="list-group-item border-0">Terms</li>
+      <li class="list-group-item border-0">Cookie</li>
+      <li class="list-group-item border-0">Guidesline</li>
+    </ul>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
