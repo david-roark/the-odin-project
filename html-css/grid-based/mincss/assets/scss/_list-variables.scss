@@ -1,0 +1,116 @@
+$list-positions: (
+  "":"",
+  "-x":"-x",
+  "-y":"-y",
+  "-top":"-t",
+  "-right":"-r",
+  "-bottom":"-b",
+  "-left":"-l"
+  );
+
+$list-sizes: (
+  "": "",
+  "-0": 0,
+  "-1": 5px,
+  "-2": 15px,
+  "-3": 30px,
+  "-4": 50px,
+  "-auto": auto
+);
+$list-sizes-radius-special: (
+"-50": 50%,
+"-pill": 1000px #{"/"} 10000px
+);
+
+$list-radius : join($list-sizes-radius-special, map-remove($list-sizes, "-auto", ""), comma);
+
+$list-basic-colors: (
+  "black": $black,
+  "white": $white,
+  "gray": $gray,
+  "red": $red,
+  "orange": $orange,
+  "yellow": $yellow,
+  "green": $green,
+  "cyan": $cyan,
+  "blue": $blue,
+  "violet": $violet,
+  "magenta": $magenta,
+  "rose": $rose
+);
+
+$list-ui-colors: (
+  "light": $light,
+  "dark": $dark,
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "danger": $danger,
+  "warning": $warning
+);
+
+$list-colors: join($list-basic-colors, $list-ui-colors, comma);
+
+// for display
+$list-display: ("none", "block", "inline", "flex", "inline-block" , "inline-flex");
+
+// for grid
+$n-col: 12;
+$gutter: 10px;
+
+$sm: 480px;
+$md: 720px;
+$lg: 1024px;
+
+$break-points: (
+ "-sm": $sm,
+ "-md": $md,
+ "-lg": $lg
+);
+
+$list-cols: (
+  "-1": 1,
+  "-2": 2,
+  "-3": 3,
+  "-4": 4,
+  "-5": 5,
+  "-6": 6,
+  "-7": 7,
+  "-8": 8,
+  "-9": 9,
+  "-10": 10,
+  "-11": 11,
+  "-12": 12
+);
+
+// margin
+$margin-default: 20px;
+// $margin-0: 0;
+// $margin-1: 5px;
+// $margin-2: 15px;
+// $margin-3: 30px;
+
+
+// padding
+$padding-default: 20px;
+// $padding-0: 0;
+// $padding-1: 5px;
+// $padding-2: 15px;
+// $padding-3: 30px;
+
+
+// text
+$text-indent: 2em;
+
+// font size
+$font-size-default: 16px;
+
+$font-size-sm: 0.8rem;
+$font-size-md: 1rem;
+$font-size-lg: 1.5rem;
+
+// line-height
+$line-height-default: 1.5em;
+$line-height-sm: 1em;
+$line-height-md: 1.5em;
+$line-height-lg: 2em;

@@ -1,0 +1,124 @@
+// botton
+.btn, botton {
+  @extend .border-solid;
+  display: inline-block;
+  padding: 10px 5px;
+  margin: 5px;
+}
+
+// display
+@each $p in $list-display {
+  .d-#{$p} {display: #{$p};}
+}
+
+@each $point, $value in $break-points {
+  @media screen and (min-width: $value) {
+    @each $p in $list-display {
+      .d#{$point}-#{$p} {display: #{$p};}
+    }
+  }
+}
+
+// creat block with width
+@each $w in (25, 50, 75, 100) {
+  .w-#{$w} {
+    display: block;
+    width: percentage($w/100);
+  }
+}
+
+
+
+// set color of text, background
+@each $alias-color, $color in $list-colors {
+  .text-#{$alias-color} {color: $color;}
+  .bg-#{$alias-color} {background-color: $color;}
+}
+
+// change text
+@each $align in (right, left, center, justify) {
+  .text-#{$align} {text-align:  $align;}
+}
+
+@each $trans in (uppercase, lowercase, capitalize) {
+  .text-#{$trans} {text-transform: $trans;}
+}
+
+@each $weight in (lighter, normal, bold, bolder) {
+  .text-#{$weight} {font-weight: $weight;}
+}
+
+@each $size in (xx-small, x-small, small, medium, large, x-large, xx-large) {
+  .text-#{$size} {font-size: $size;}
+}
+
+// border
+
+@each $pos, $alias-pos in $list-positions {
+  @each $alias-color, $color in $list-ui-colors {
+    .border-#{$alias-color} {
+      @extend .border-solid;
+      border-color: $color;
+    }
+  }
+}
+
+// border radius
+@each $alias-size, $value in $list-radius {
+    .border#{$alias-size} {border-radius: $value;}
+}
+.border-solid {border-style: solid;}
+.border-none {border-style: none;}
+
+
+// margin and padding
+@each $pos, $alias-pos in $list-positions {
+  @each $alias-size, $value in map-remove($list-sizes, "") {
+
+    .margin#{$alias-pos}#{$alias-size} {
+      @if $alias-pos == "-x" {
+        margin-left: $value;
+        margin-right: $value;
+      }
+      @else if $alias-pos == "-y" {
+        margin-top: $value;
+        margin-bottom: $value;
+      }
+      @else {margin#{$pos}: $value; }
+    }
+
+    @if ($value != auto) {
+      .padding#{$alias-pos}#{$alias-size} {
+        @if $alias-pos == "-x" {
+          padding-left: $value;
+          padding-right: $value;
+        }
+        @else if $alias-pos == "-y" {
+          padding-top: $value;
+          padding-bottom: $value;
+        }
+        @else {padding#{$pos}: $value; }
+      }
+    }
+  }
+}
+
+// overflow
+@each $name in (visible, hidden, scroll, auto, inherit) {
+  .overflow-#{$name} {overflow: $name;}
+}
+
+// position
+@each $p in (static, relative, absolute) {
+  .position-#{$p} {position: $p;}
+}
+.position-fixed {
+  position: fixed;
+  top: 0;
+}
+
+@each $p in (top, left, bottom, right) {
+  @each $px in (0, 1, 2, 3, 4) {
+    .#{$p}-#{$px} {#{$p}: $px#{"px"};}
+  }
+}

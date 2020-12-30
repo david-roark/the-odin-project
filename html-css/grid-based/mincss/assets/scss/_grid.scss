@@ -1,0 +1,86 @@
+.f-row {flex-direction: row;}
+.f-col {flex-direction: column;}
+.f-nowrap {flex-wrap: nowrap;}
+.f-wrap {flex-wrap: wrap;}
+
+.f-c-center {justify-content: center }
+.f-c-start {justify-content: flex-start; }
+.f-c-end {justify-content: flex-end; }
+.f-c-around {justify-content: space-around; }
+.f-c-between {justify-content: space-between; }
+
+.f-i-baseline {align-items: baseline;}
+.f-i-center {align-items: center;}
+.f-i-end {align-items: flex-end;}
+.f-i-start {align-items: flex-start;}
+.f-i-stretch {align-items: stretch;}
+
+.f-s-baseline {align-self: baseline;}
+.f-s-center {align-self: center;}
+.f-s-end {align-self: flex-end;}
+.f-s-start {align-self: flex-start;}
+.f-s-stretch {align-self: stretch;}
+
+.container {
+  width: 100%;
+  height: auto;
+  margin: 30px auto;
+  padding: 0;
+}
+
+.row {
+  width: 100%;
+  height: auto;
+  margin: $gutter auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  width: auto;
+  min-width: 100%/$n_col;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  margin: $gutter 0;
+  padding: 10px;
+}
+
+@each $alias-n, $num in $list-cols {
+  .col#{$alias-n} {
+    width: (88% / 12) * $num;
+    margin: $gutter auto;
+    padding: 5px;
+  }
+
+}
+
+@media screen and (max-width: $sm - 1px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@each $point, $value in $break-points {
+  @media screen and (min-width: $value) {
+    .container {
+      max-width: $value;
+    }
+    @each $alias-n, $num in $list-cols {
+      .col#{$point}#{$alias-n} {
+        width: ($value / $n_col)*$num - (4 * $gutter);
+        margin: $gutter;
+        @if $point == "-sm" {
+          padding: 5px;
+        } @else {
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+
+.no-gutters {
+  .row {margin: 0;}
+  [class*="col-"] {margin: 0;}
+}

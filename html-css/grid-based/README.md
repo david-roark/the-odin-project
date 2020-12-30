@@ -1,0 +1,76 @@
+# My CSS framework mincss
+You can use my framework for free. Please copy folder **mincss** for all or _`mincss/assets/css`_ for only css files. Thank you.
+
+# How to use
+## Rule
+- Mobile first
+- Layout 12 columns
+- Breakpoint:
+  - < 480px,
+  - \>= 480px (**sm**),
+  - \>= 720px (**md**),
+  - \>= 1024px (**lg**)
+- Position:
+  - **x** => horizontal axis,
+  - **y** => vertical axis,
+  - **t** => top,
+  - **l** => left,
+  - **b** => bottom,
+  - **r** => right
+- Sizes:
+  - **0** => 0,
+  - **1** => 5px,
+  - **2** => 15px,
+  - **3** => 30px,
+  - **4** => 50px,
+  - **auto** => auto,
+
+  - **25** => 25%,
+  - **50** => 50%,
+  - **75** => 75%,
+  - **100** => 100%
+- Colors name:
+  - Basic: `white`, `black`, `gray`, `red`, `orange`, `yellow`, `grenn`, `cyan`, `blue`, `magenta`, `violet`, `light`, `dark`, `primary`, `secondary`, `warning`, `danger`, `success`
+  - Other: you can see in `_mincss/assets/scss/var-colors.scss_`
+- Class name:
+  - Grid:
+    - Container => `container`
+    - Want no gutter => put `no-gutters` with `container`
+    - Row => `row` (diplay flexbox, you can set up flex align here)
+    - Column:
+      - Auto-width => `col`
+      - With free-width base percentage => `col-{ 1 | 2 | ... |12 }`
+      - With break point => `col-{ sm | md | lg }-{ 1 | 2 | ... |12 }`
+    - Flex direction => `f-row`, `f-col`
+    - Flex align:
+      - Justify-content => `f-c-{ center | start | end | around | between }`
+      - Align-items => `f-i-{ center | start | end | around | between }`
+      - Align-self => `f-s-{ center | start | end | baseline | stretch }`
+  - Others:
+    - Botton => `btn`
+    - Display:
+      - `d-{ none | block | inline | flex | inline-block | inline-flex }`
+      - Use with breakpoint => `d-{ sm | md | lg }-{ none | block | inline | flex | inline-block | inline-flex }`
+    - Create block with special width base percentage => `w-{ 25 | 50 | 75 | 100 }`
+    - Text:
+      - Color => `text-{color-name}`
+      - Change => `text-{ uppercase | lowercase | capitalize }`
+      - Align => `text-{top | right | bottom | left }`
+      - Font weight => `text-{ lighter | normal | bold | bolder}`
+      - Size : `text-{xx-small | x-small | small | medium | x-large | xx-large}` (medium == font size of root)
+    - Background color => `bg-{color-name}`
+    - Border:
+      - Color => `border-{color-name}`
+      - Radius => `border-{ 0 | 1 | .. | 4 | 50 | pill }`
+      - Style => `border-solid, border-none`
+    - Margin:
+      - `margin-{ 0 | 1 | .. | 4 | auto }`
+      - `margin-{ x | y | t | l | b | r }-{ 0 | 1 | .. | 4 | auto }`
+    - Padding:
+      - `padding-{ 0 | 1 | .. | 4 }`
+      - `padding-{ x | y | t | l | b | r }-{ 0 | 1 | .. | 4 }`
+    - Overflow => `overflow-{visible | hidden | scroll | auto | inherit}`
+    - Position use with overflow => `{top | left | bottom | right }-{ 0 | 1 | .. | 4 }`
+  - _**Example**_ :
+    - `col-{ sm | md | lg }-{ 1 | 2 | ... |12 }` => **`col-md-5`** ...
+    - `bg-{color-name}` => **`bg-primary`** ...
