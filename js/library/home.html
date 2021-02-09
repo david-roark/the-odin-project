@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Library</title>
+</head>
+<body>
+  <h1 class="title">LIBRARY</h2>
+  
+
+  <div id="new-book-form" class="new-book-form">
+    <form class="form" onsubmit="jsAddBook()">
+      <button class="btn-close" onclick="closeForm()"></button>
+
+      <h2>Add a new book</h2>
+      <label class="label-form" for="titleBook">
+        <span>Title</span>
+        <input type="text" id="titleBook" required>
+      </label><br>
+
+      <label class="label-form" for="authorBook">
+        <span>Author</span>
+        <input type="text" id="authorBook" required>
+      </label><br>
+
+      <label class="label-form" for="numberPages">
+        <span>Number of pages</span>
+        <input type="number" id="numberPages" min="2" required>
+      </label><br>
+
+
+      <label class="label-form" for="completed">
+        <span>Have you finished this book?</span>
+        <input type="checkbox" id="completed">
+      </label><br>
+
+      <input type="submit" class="btn-add" value="Add book">
+    </form>
+  </div>
+  <br>
+
+  <fieldset>
+    <legend>
+    <button class="btn" onclick="openForm()">Add new book</button>
+    </legend>
+
+    <div class="container">
+
+    </div>
+
+  </fieldset>
+</body>
+
+<script src="main.js"></script>
+</html>
