@@ -68,10 +68,12 @@ function jsAddBook() {
       bookCard.innerHTML = `
         <div class="card">
           <div class="title-book">${book.title}</div>
-          <div class="author-book">By: ${book.author}</div>
-          <div class="number-pages">Total: ${book.numberPages} pages</div>
-          <button class="btn" onclick="changeComplete(${i})">${book.completed ? "Completed" : "Not completed"}</button>
-          <button class="btn" onclick="removeFromLibrary(${i})">Delete</button>
+          <div class="author-book">${book.author}</div>
+          <div class="number-pages">${book.numberPages} pages</div>
+          <div class="group-btn">
+            <button class="btn" onclick="changeComplete(${i})">${book.completed ? "Completed" : "Not completed"}</button>
+            <button class="btn" onclick="removeFromLibrary(${i})">Delete</button>
+          </div>
         </div>
       `;
 
