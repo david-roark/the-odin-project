@@ -1,0 +1,1 @@
+:root{--red:#f72210;--yellow:#ffe400}.bg-red{background-color:var(--red)!important}.bg-yellow{background-color:var(--yellow)!important}.text-gray{color:gray!important}.text-red{color:var(--red)!important}.card__img{position:relative}.card__img__topic{position:absolute;left:0;bottom:0}.ct-centered{top:50%;left:50%;transform:translate(-50%,-50%)}
