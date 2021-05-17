@@ -1,4 +1,4 @@
-# the_odin-project
+# the-odin-project
 Here are all my projects and files I have learned and practiced in [Theodinproject](https://www.theodinproject.com)
 
 # Folder:
