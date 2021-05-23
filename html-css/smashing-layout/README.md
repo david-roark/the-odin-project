@@ -1,4 +1,4 @@
-[Live Preview](https://david-roark.github.io/the_odin-project/html-css/smashing-layout/smashing.html)
+[Live Preview](https://david-roark.github.io/the-odin-project/html-css/smashing-layout/smashing.html)
 
 ** Pre-layout **
 
