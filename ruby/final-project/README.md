@@ -23,6 +23,7 @@
 - Run `ruby play_game.rb`
 - You want to know about how to play Chess, visit [Illustrated rules of Chess](http://www.chessvariants.org/d.chess/chess.html)
 - Tips: type 'exit' when you want to back to menu, type 'other piece' if you want to chose piece again
+- Play on Replit [play >](https://replit.com/@DavidRoark/the-odin-project)
 
 ### About this project
 - This is a project that I build a command line Chess game where two players can play against each other
