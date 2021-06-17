@@ -116,6 +116,9 @@ class Game
   end
 
   def save(option = 'w')
+    unless File.exist?('data/history.yml')
+      Dir.mkdir('data')
+    end
     File.open('data/history.yml', option) { |f| f.write(to_yaml) }
   end
 end
