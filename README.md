@@ -29,7 +29,14 @@
   - Goals: Deep learning about HTML and CSS for UX web development
 
 # Path learning
-Jump to [Foundations](##foundations), [Ruby programming](###ruby-programming), [Database](###database), [Ruby on Rails](###ruby-on-rails), [HTML-CSS](###html-css), [JavaScript](###javascript)
+**Jump to:**
+  - [Foundations](#foundations)
+  - [Full-stack Ruby on Rails](#full-stack-ruby-on-rails)
+    - [Ruby programming](#i.-ruby-programming)
+    - [Database](#ii.-database)
+    - [Ruby on Rails](#iii.-ruby-on-rails)
+    - [HTML-CSS](#iv.-html-css)
+    - [JavaScript](#v.javascript)
 
 ## Foundations
 
