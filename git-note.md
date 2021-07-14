@@ -30,6 +30,8 @@ Lợi ích của git ngoài những lợi ích chung của VCS:
 - `git merge <branch muốn merge>` merge 2 branch lại.
 - `git reset HEAD <tên_file>` loại bỏ file ra khỏi stage để không commit nó. `git reset HEAD~2        # undo last two commits, keep changes`
 
+![cheatsheet](./images/cheatsheet-git.jpg)
+
 ### Tools, courses and cheatsheets
 
 [Learn git](https://learngitbranching.js.org/)
