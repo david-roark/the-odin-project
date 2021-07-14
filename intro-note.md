@@ -41,3 +41,19 @@ Những điều cần tránh và phương pháp giải quyết đó là:
   - So sánh bản thân với người khác => Mỗi người có một điểm mạnh điểm yếu riêng nên việc so sánh là khập khiễn. Thay vì so sánh với người khác thì hãy so sánh với bản thân trong quá khứ xem bạn đã tiến bộ như thế nào sau 1 tuần, 1 tháng, hay 1 năm.
 
   > Bạn có thể tìm hiểu khóa học "Learning how to learn" trên Coursera để có thể tìm ra phương pháp học phù hợp với bạn. Ngoài ra bạn nên luyện tập "gõ 10 ngón" để có hiệu quả tốt nhất!
+
+### Become a web developer
+ > Để trở thành một lập trình viên Full-stack, ngoài kiến thức từ hai phần cơ bản là front-end và back-end thì cần thêm kiến thức về database (như SQL, noSQL, cache,...); version control system (như github, gitlab,... ); sử dụng command line, deploy (lên server như AWS, Azure,...); testing, fix bugs, bảo mật,...
+ > ![](./images/fullstack.webp)
+
+> **Lộ trình trở thành một Web developer**
+> ![intro](./images/intro-web-developer.png)
+
+> **Con đường trở thành một lập trình viên Front-end**
+> ![front-end](./images/frontend.png)
+
+> **Con đường trở thành một lập trình viên Back-end**
+> ![back-end](./images/backend.png)
+
+> **Con đường trở thành DevOps**
+> ![devops](./images/devops.png)
