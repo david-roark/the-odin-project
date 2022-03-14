@@ -12,17 +12,18 @@
 
 <details>
 <summary>All my notes written in Vietnamese (vi). I so happy if you can help me translate to other languages. Many thanks</summary>
-<a href="https://github.com/david-roark/the-odin-project/blob/master/intro-note.md">Introduction note </a><br>
-<a href="https://github.com/david-roark/the-odin-project/blob/master/git-note.md">Git note </a><br>
-<a href="https://github.com/david-roark/the-odin-project/blob/master/html-note.md">HTML note </a><br>
-<a href="https://github.com/david-roark/the-odin-project/blob/master/css-note.md">CSS note </a><br>
-<a href="https://github.com/david-roark/the-odin-project/blob/master/js-note.md">Javascript note </a><br>
-<a href="https://github.com/david-roark/the-odin-project/blob/master/ruby-note.md">Ruby-lang note </a><br>
-<a href="https://github.com/david-roark/the-odin-project/blob/master/rails-note.md">Ruby on Rails note </a><br>
-<a href="https://github.com/david-roark/the-odin-project/blob/master/cs-note.md">Computer Science note </a><br>
-<a href="https://github.com/david-roark/the-odin-project/blob/master/sql-note.md">SQL note </a><br>
-<a href="https://github.com/david-roark/the-odin-project/blob/master/testing-note.md">Testing note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/notes/vi/intro-note.md">Introduction note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/notes/vi/git-note.md">Git note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/notes/vi/html-note.md">HTML note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/notes/vi/css-note.md">CSS note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/notes/vi/js-note.md">Javascript note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/notes/vi/ruby-note.md">Ruby-lang note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/notes/vi/rails-note.md">Ruby on Rails note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/notes/vi/cs-note.md">Computer Science note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/notes/vi/sql-note.md">SQL note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/notes/vi/testing-note.md">Testing note </a><br>
 </details>
+
 
 
 # My folders structure
@@ -585,31 +586,31 @@
 <h3> Searching</h3>
     <li><a href="https://devdocs.io">DevDocs</a> combines multiple API documentations in a fast, organized, and searchable interface.</li>
     <li><a href="www.symbolhound.com">SymbolHound</a> is a search engine that doesn't ignore special characters. This means you can easily search for symbols like &, %, and π.</li>
-    <li><a href="https://overapi.com/">Collecting all cheatsheet]</a></li>
+    <li><a href="https://overapi.com/">Collecting all cheatsheet</a></li>
     <li><a href="https://www.ruby-toolbox.com">The Ruby Toolbox</a> is a catalog of all Rubygems that keeps track of popularity and health metrics to help you choose a reliable library</li>
     <li><a href="https://codebeautify.org/">Code beauty</a> where you can lookup a lot of tools here.</li>
 <h3>Tools</h3>
-    <li> [Ruby regex tool](https://rubular.com/) test Ruby Regex</li>
-    <li> [Can I use](https://caniuse.com/) provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.</li>
-    <li>[Autoprefixer CSS](https://autoprefixer.github.io/)</li>
-    <li> [Create README.md](https://readme.so/editor)</li>
-    <li> [Create gitignore](https://www.toptal.com/developers/gitignore)</li>
-    <li>[Create resume](https://rxresu.me/)</li>
+    <li><a href="https://rubular.com/">Ruby regex tool</a> test Ruby Regex</li>
+    <li><a href="https://caniuse.com/">Can I use</a> provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.</li>
+    <li><a href="https://autoprefixer.github.io/">Autoprefixer CSS</a></li>
+    <li><a href="https://readme.so/editor">Create README.md online</a></li>
+    <li><a href="https://www.toptal.com/developers/gitignore">Create gitignore</a></li>
+    <li><a href="https://rxresu.me/">Create resume</a></li>
 <h3>Usefull</h3>
-    <li>[Goal kicker](www.goalkicker.com) free programming books</li>
-    <li>[Ruby wikibook](https://en.wikibooks.org/wiki/Ruby_Programming)</li>
-    <li>[List web development tools](https://www.keycdn.com/blog/web-development-tools)</li>
-    <li>[Resources web skills](https://andreasbm.github.io/web-skills/)</li>
-    <li>[Free HTML templates](https://html.com/resources/free-html-templates/)</li>
-    <li>[HTML reference](https://htmlreference.io)</li>
-    <li>[CSS gradient](https://cssgradient.io)</li>
-    <li>[CSS reference](https://cssreference.io)</li>
-    <li>[Css-tricks](https://css-tricks.com)</li>
-    <li>[Ruby hacking guide](https://ruby-hacking-guide.github.io)</li>
+    <li><a href="www.goalkicker.com">Goal kicker</a> free programming books</li>
+    <li><a href="https://en.wikibooks.org/wiki/Ruby_Programming">Ruby wikibook</a></li>
+    <li><a href="https://www.keycdn.com/blog/web-development-tools">List web development tools</a></li>
+    <li><a href="https://andreasbm.github.io/web-skills/">Resources web skills</a></li>
+    <li><a href="https://html.com/resources/free-html-templates">Free HTML templates</a></li>
+    <li><a href="https://htmlreference.io">HTML reference</a></li>
+    <li><a href="https://cssgradient.io">CSS gradient</a></li>
+    <li><a href="https://cssreference.io">CSS reference</a></li>
+    <li><a href="https://css-tricks.com">Css-tricks</a></li>
+    <li><a href="https://ruby-hacking-guide.github.io">Ruby hacking guide</a></li>
 <h3>Coding practice</h3>
-	<li>[Codewars](htpps://codewars.com)</li>
-	<li>[Hackerank](https://hackerrank.com)</li>
-	<li>[Edabit](https://edabit.com)</li>
-	<li>[Exercism](https://exercism.io)</li>
-	<li>[Codinggame](https://codinggame.com)</li>
-	<li>[Leetcode](https://leetcode.com)</li>
+	<li><a href="htpps://codewars.com">Codewars</a></li>
+	<li><a href="https://hackerrank.com">Hackerank</a></li>
+	<li><a href="https://edabit.com">Edabit</a></li>
+	<li><a href="https://exercism.io">Exercism</a></li>
+	<li><a href="https://codinggame.com">Codinggame</a></li>
+	<li><a href="https://leetcode.com">Leetcode</a></li>
