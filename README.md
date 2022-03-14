@@ -6,13 +6,32 @@
 
 ### Me and The Odin Project
 
-> Thank [Theodinproject](https://theodinproject.com) so much :heart: I have no experience at coding and don't know where should I start to become a web developer. But The Odin Project saved me. If you are a beginner and want to have a learing path, let's visit theodinproject.com now. Now, I am learning Ruby on Rails and this is [my learning path](#path-learning)
+> Thank [Theodinproject 🔗](https://theodinproject.com) so much :heart: I have no experience at coding and don't know where should I start to become a web developer. But The Odin Project saved me. If you are a beginner and want to have a learing path, let's visit theodinproject.com now. Now, I am learning Ruby on Rails and this is [my learning path in The Odin Project🔗](#theodinproject-learning-path)
 
 > Feel free to fork my repo, or copy my path in README.md if you need help :blush: :tada: :tada: :tada:
 
-# My folder structure
+<details>
+<summary>All my notes written in Vietnamese (vi). I so happy if you can help me translate to other languages. Many thanks</summary>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/intro-note.md">Introduction note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/git-note.md">Git note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/html-note.md">HTML note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/css-note.md">CSS note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/js-note.md">Javascript note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/ruby-note.md">Ruby-lang note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/rails-note.md">Ruby on Rails note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/cs-note.md">Computer Science note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/sql-note.md">SQL note </a><br>
+<a href="https://github.com/david-roark/the-odin-project/blob/master/testing-note.md">Testing note </a><br>
+</details>
 
-```
+
+# My folders structure
+
+<details>
+<summary><b>View my folders structure</b></summary>
+<p>This is place where I saved all projects, files,... I have learned in The Odin Project. See below for more infomation about each folder.</p>
+<pre>
+<code>
 .
 ├── html-css
 │   ├── apple-page
@@ -67,6 +86,9 @@
 │       ├── README.md
 │       ├── styles.css
 │       └── watch.html
+├── images
+│   ├── ...
+│   └── ...
 ├── js
 │   └── library
 │       ├── home.html
@@ -167,45 +189,58 @@
 │       ├── mini_game_with_ui.js
 │       ├── README.md
 │       └── style.css
+├── notes
+│   └── vi
+│       ├── intro-note.md
+│       ├── git-note.md
+│       ├── html-note.md
+│       ├── css-note.md
+│       ├── js-note.md
+│       ├── CS-note.md
+│       ├── SQL-note.md
+│       ├── ruby-note.md
+│       ├── rails-note.md
+│       └── testing-note.md
 └── README.md
+</code>
+</pre>
+</details>
 
-```
-
-> **This is place where I saved all projects, files,... I have learned in The Odin Project. See below for more infomation about each folder.**
+## Courses
 
 - :file_folder: **web_dev**
 
-  > [Web Development 101](https://www.theodinproject.com/courses/web-development-101)
+> [Web Development 101 🔗](https://www.theodinproject.com/courses/web-development-101)
 
-  > :dart: Basic about web, front-end (html/css/javascript), back-end and git
+> :dart: Basic about web, git, front-end (html/css/javascript), back-end
 
 - :file_folder: **ruby**
 
-  > [Ruby Programming course](https://www.theodinproject.com/courses/ruby-programming)
+> [Ruby Programming course 🔗](https://www.theodinproject.com/courses/ruby-programming)
 
-  > :dart: Object-oriented design, testing, data structures
+> :dart: Object-oriented design, testing, data structures
 
 - :file_folder: **rails**
 
-  > [Ruby on Rails course](https://www.theodinproject.com/courses/ruby-on-rails)
+> [Ruby on Rails course 🔗](https://www.theodinproject.com/courses/ruby-on-rails)
 
-  > :dart: Please read in `README.md` in folder :open_file_folder: **rails** to follow link to my projects
+> :dart: Please read `README.md` in folder :open_file_folder: **rails** to follow link to my projects
 
 - :file_folder: **html-css**
 
-  > [HTML-CSS course](https://www.theodinproject.com/courses/html-and-css)
+> [HTML-CSS course 🔗](https://www.theodinproject.com/courses/html-and-css)
 
-  > :dart: Deep learning about HTML and CSS for UX web development
+> :dart: Deep learning about HTML and CSS for UX web development
 
 - :file_folder: **js**
 
-  > [JavaScript course](https://www.theodinproject.com/courses/javascript)
+> [JavaScript course 🔗](https://www.theodinproject.com/courses/javascript)
 
-  > :dart:
+> :dart:
 
-# Path learning
+# TheOdinProject learning path
 
-**Jump to:**
+####  Jump to
 
 - :mortar_board: [Foundations](#foundations)
 - :mortar_board: [Full-stack Ruby on Rails](#full-stack-ruby-on-rails)
@@ -216,85 +251,76 @@
   - :mortar_board: [HTML-CSS](#iv-html-css)
   - :mortar_board: [JavaScript](#v-javascript)
 
->**Bonus:** developer documentations _[devdoc.io](https://devdocs.io)_
+- 🖈 [Bonus tools, sources,...](#bonus)
 
 ## Foundations
 
-### 1\. Git basics
+### Introduction
 
-- [x] Git basics [:arrow_upper_right:](https://learngitbranching.js.org)
+- [x] Introduction to Web development
+- [x] How does the web work?
+- [x] Installing and setting tools
+
+### 1\. Git
+
+- [x] Git basics
 - [x] GitHub
 
 ### 2\. Font-end basics
 
-- [x] HTML-CSS foundation [:arrow_upper_right:](https://freecodecamp.org/)
-- [ ] JavaScript foundation [:arrow_upper_right:][15bf6f55]
+- [x] HTML foundation
 
-  - [x] "use strict"
-  - [x] Variables: naming, keywords (`var`, `let`, `const`)
-  - [x] Data types
+  - [x] Headings
+  - [x] Paragraphs
+  - [x] Text formatings
+  - [x] Anchors and hyperlinks
+  - [x] Lists
+  - [x] Tables
+  - [x] Classes, IDs
+  - [x] Linking resourses
+  - [x] Using CSS, Js in HTML
+  - [x] Images
+  - [x] Forms and input elements
+  - [x] Div element, sectioning elements, media elements, iframes
 
-    - [x] Number and BigInt
-    - [x] String
-    - [x] Boolean
-    - [x] null
-    - [x] undefined
-    - [x] Symbols
-    - [ ] Objects
+- [x] CSS foundation
 
-        - [x] Arrays, array methods: `push(...items)`, `pop()`, `shift()`, `unshift(...items)`, `splice(pos, delCount, ...items)`, `slice(start, end)`, `concat(...items)`, `forEach(fn)`, `indexOf(item, pos)`, `includes(value)`, `find(fn)`, `filter(fn)`, `map(fn)`, `sort(fn)`, `reverse()`, `split()`, `join()`, `reduce(fn, init)`, `flat(depth)`, ...
-        - [ ] Map, Set, Map methods, Set methods
-        - [ ] WeakMap, WeakSet, WeakMap methods, WeakSet methods
-        - [x] Object.keys, vaules, entries
-        - [x] Destructuring
-        - [ ] Date and time
-        - [ ] JSON (`stringify`, `parse` methods)
+  - [x] Relation CSS with HTML
+  - [x] Selectors
+  - [x] Backgrounds
+  - [x] Centerings
+  - [x] Box model
+  - [x] Margins, padding, border
+  - [x] Overflow
+  - [x] Media querries
+  - [x] Positioning
+  - [x] Box-shadow
+  - [x] Floats
+  - [x] Flexbox
+  - [x] Grid
+  - [x] Typography
+  - [x] Colors, opacity
+  - [x] Length units
+  - [x] Tables
+  - [ ] Transitions, Animations, 2D-3D transforms
+  - [ ] Functions
 
-  - [x] Interaction: `alert`, `prompt`, `confirm`
-  - [x] Type conversions
-  - [x] Operator, maths
-  - [x] Conditional: `if..end`, `if..else if..end`, `? :`, `switch..case`
-  - [x] `||`, `&&`, `??`, `!(NOT)`
-  - [x] Loops: `while`, `do..while`, `for (;;)`
-  - [x] Keywords (`break`, `continue`); labels for break/continue
-  - [ ] Functions: functions, callback functions, arrow functions
+- [ ] JavaScript foundation
 
-    - [x] Arguments
-    - [x] Rest parameters `...`
-    - [ ] Spead sytax `...array`
-    - [ ] setTimeout, setInterval, clearTimeout
-
-  - [ ] Objects (Array, Data, Error, ...)
-
-    - [ ] Literals and properties, access a property, delete a property
-    - [x] Operator`in`, loops `for..in`, `for..of`
-    - [ ] Object references and copying
-    - [x] Object methods, keyword `this` in methods
-    - [x] Constructor, operator `new`, methods in constructor
-    - [ ] Optional chaining (ex: `user?.address?.street`) (be careful!!!)
-
-  - [x] Symbols
-  - [ ] Class
-
-    - [x] Syntax
-    - [ ] Inheritance
-    - [ ] Properties and methods
-    - [ ] Mixins
-
-  - [ ] DOM
-
-    - [x] DOM tree
-    - [x] Node: navigation, relative, collections, search, properties and attributes ...
-    - [ ] Modifying document
-    - [ ] Styles and classes
-    - [ ] Window/Element size and scrolling
-    - [ ] Coordinates
+  - [ ] 
 
 - [ ] Developer tools
 
-### 3\. Intro back-end
-- [x] Introduction about back-end
-- [x] Introduction some frameworks
+- [ ] **Projects**
+
+  - [x] Google homepage [preview](https://david-roark.github.io/the-odin-project/web_dev/google_homepage/index.html) | [github](./web_dev/Etch-a-Sketch)
+  - [x] Rock paper scissors [preview](https://david-roark.github.io/the-odin-project/web_dev/rock_paper_scissors/mini_game_with_ui.html) | [github](./web_dev/rock_paper_scissors)
+  - [x] Etch a Sketch [preview](https://david-roark.github.io/the-odin-project/web_dev/Etch-a-Sketch/index.html) | [github](./web_dev/rock_paper_scissors)
+  - [ ] Calculator [preview](https://david-roark.github.io/the-odin-project/) | [github](#)
+
+### 3\. About back-end
+
+- [x] Introduction about back-end and some frameworks
 
 ## Full-stack Ruby on Rails
 
@@ -314,6 +340,7 @@
 - [x] Enumerable
 - [x] Nested collections
 - [x] Debugs: `p`, `puts`, _pry gem_
+
 
 #### 2\. Object Oriented Programming (OOP)
 
@@ -348,6 +375,24 @@
 
 - [x] Test driven development (TDD)
 - [x] RSpec
+
+#### 7. Mini-projects
+
+- [x] Caesar Cipher [Github](./ruby/methods/lib/caesar_cipher.rb)
+- [x] Sub Strings [Github](./ruby/methods/lib/sub_strings.rb)
+- [x] Stock Picker [Github](./ruby/methods/lib/stock_picker.rb)
+- [x] Bubble Sort [Github](./ruby/methods/lib/bubble_sort.rb)
+- [x] Merge Sort [Github](./ruby/methods/lib/merge_sort.rb)
+- [x] Tic Tac Toe [Github](./ruby/game_tic_tac_toe)
+- [x] Master Mind [Github](./ruby/game_mastermind)
+- [x] Event Manager [Github](./ruby/event_manager/)
+- [x] File IO and Serialization (game Hangman) [Github](./ruby/game_hangman)
+- [x] Custom Enumerables [Github](./ruby/custom-enum)
+- [x] Recursion [Github](./ruby/methods/lib/recursion.rb)
+- [x] Linked Lists [Github](./ruby/linked_list/linked_list.rb)
+- [x] Binary Search Trees [Github](./ruby/data_structures-algorithms/BST/binar_search_trees.rb)
+- [x] Knights Travails [Github](./ruby/data_structures-algorithms/knights_travails/knight.rb)
+- [x] **Ruby final project (Chess)** [Github](./ruby/final-project) | [Live preview](https://replit.com/@DavidRoark/the-odin-project)
 
 ### II. Database
 
@@ -404,7 +449,6 @@
 - [x] CSRF token
 - [x] Helper: `form_for`, `form_with`, `form_tag`, `*_tag`, ...
 - [x] Sessions cookies
-- [ ] _Devise gem_
 
 #### 4\. Advanced form and active record
 
@@ -414,7 +458,7 @@
   - [x] ActiveRecord::FinderMethods: `#find`, `#find_by`, `#last`, `#first`, `#take`, ...
   - [ ] ActiveRecord::QueryMethods: `#select`, `#from`, `#group`, `#having`, `#order`, `#includes`, ...
   - [ ] Highlight: chaining queries(`#order`, ...), checking (`#any?`, `#exist?`, `#many?`,...), mathematical (`#count`, `#max`)
-  - [ ] Problem **N + 1 query** => `#includes`, `#pluck`, _bullet gem_
+  - [ ] Problem **N + 1 query** => `#includes`, `#pluck`
   - [ ] Scopes
   - [ ] Write pure SQL: `#find_by_sql`
 
@@ -449,6 +493,10 @@
 - [ ] Design pattern: SOLID
 - [ ] I18n: Internationalization
 - [ ] WebSockets
+
+#### 7\. Projects
+
+- []
 
 ### IV. HTML - CSS
 
@@ -507,9 +555,9 @@
 
 #### 2\. Tools and a few practical applications of JavaScript
 
-  - [ ] Linting tools
-  - [ ] Dynamic user interface interactions, forms
-  - [ ] ES
+- [ ] Linting tools
+- [ ] Dynamic user interface interactions, forms
+- [ ] ES
 
 #### 3\. Asynchronous JavaScript and APIs
 
@@ -531,4 +579,37 @@
 
 #### 6\. JavaScript and Backend
 
-[15bf6f55]: https://javascript.info "Modern JavaScript Learning"
+## Bonus
+<details>
+<summary>Useful things for you</summary>
+<h3> Searching</h3>
+    <li><a href="https://devdocs.io">DevDocs</a> combines multiple API documentations in a fast, organized, and searchable interface.</li>
+    <li><a href="www.symbolhound.com">SymbolHound</a> is a search engine that doesn't ignore special characters. This means you can easily search for symbols like &, %, and π.</li>
+    <li><a href="https://overapi.com/">Collecting all cheatsheet]</a></li>
+    <li><a href="https://www.ruby-toolbox.com">The Ruby Toolbox</a> is a catalog of all Rubygems that keeps track of popularity and health metrics to help you choose a reliable library</li>
+    <li><a href="https://codebeautify.org/">Code beauty</a> where you can lookup a lot of tools here.</li>
+<h3>Tools</h3>
+    <li> [Ruby regex tool](https://rubular.com/) test Ruby Regex</li>
+    <li> [Can I use](https://caniuse.com/) provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.</li>
+    <li>[Autoprefixer CSS](https://autoprefixer.github.io/)</li>
+    <li> [Create README.md](https://readme.so/editor)</li>
+    <li> [Create gitignore](https://www.toptal.com/developers/gitignore)</li>
+    <li>[Create resume](https://rxresu.me/)</li>
+<h3>Usefull</h3>
+    <li>[Goal kicker](www.goalkicker.com) free programming books</li>
+    <li>[Ruby wikibook](https://en.wikibooks.org/wiki/Ruby_Programming)</li>
+    <li>[List web development tools](https://www.keycdn.com/blog/web-development-tools)</li>
+    <li>[Resources web skills](https://andreasbm.github.io/web-skills/)</li>
+    <li>[Free HTML templates](https://html.com/resources/free-html-templates/)</li>
+    <li>[HTML reference](https://htmlreference.io)</li>
+    <li>[CSS gradient](https://cssgradient.io)</li>
+    <li>[CSS reference](https://cssreference.io)</li>
+    <li>[Css-tricks](https://css-tricks.com)</li>
+    <li>[Ruby hacking guide](https://ruby-hacking-guide.github.io)</li>
+<h3>Coding practice</h3>
+	<li>[Codewars](htpps://codewars.com)</li>
+	<li>[Hackerank](https://hackerrank.com)</li>
+	<li>[Edabit](https://edabit.com)</li>
+	<li>[Exercism](https://exercism.io)</li>
+	<li>[Codinggame](https://codinggame.com)</li>
+	<li>[Leetcode](https://leetcode.com)</li>
