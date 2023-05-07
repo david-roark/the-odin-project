@@ -599,7 +599,7 @@
     <li><a href="https://rxresu.me/">Create resume</a></li>
 <h3>Usefull</h3>
     <li><a href="https://rubystyle.guide/">Ruby best practice</a></li>
-    <li><a href="ttps://rails.rubystyle.guide">Rails best practice</a></li>
+    <li><a href="https://rails.rubystyle.guide">Rails best practice</a></li>
     <li><a href="https://refactoring.guru/">Refactoring</a> is a source for Design Pattern, Refactor code</li>
     <li><a href="https://devtut.github.io/">Devtut</a> has a lot of source to study</li>
     <li><a href="www.goalkicker.com">Goal kicker</a> free programming books</li>
