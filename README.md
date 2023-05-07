@@ -587,6 +587,7 @@
     <li><a href="https://devdocs.io">DevDocs</a> combines multiple API documentations in a fast, organized, and searchable interface.</li>
     <li><a href="www.symbolhound.com">SymbolHound</a> is a search engine that doesn't ignore special characters. This means you can easily search for symbols like &, %, and π.</li>
     <li><a href="https://overapi.com/">Collecting all cheatsheet</a></li>
+    <li><a href="https://devhints.io/">Devhints</a> is another collection cheatsheet</li>
     <li><a href="https://www.ruby-toolbox.com">The Ruby Toolbox</a> is a catalog of all Rubygems that keeps track of popularity and health metrics to help you choose a reliable library</li>
     <li><a href="https://codebeautify.org/">Code beauty</a> where you can lookup a lot of tools here.</li>
 <h3>Tools</h3>
@@ -597,6 +598,10 @@
     <li><a href="https://www.toptal.com/developers/gitignore">Create gitignore</a></li>
     <li><a href="https://rxresu.me/">Create resume</a></li>
 <h3>Usefull</h3>
+    <li><a href="https://rubystyle.guide/">Ruby best practice</a></li>
+    <li><a href="ttps://rails.rubystyle.guide">Rails best practice</a></li>
+    <li><a href="https://refactoring.guru/">Refactoring</a> is a source for Design Pattern, Refactor code</li>
+    <li><a href="https://devtut.github.io/">Devtut</a> has a lot of source to study</li>
     <li><a href="www.goalkicker.com">Goal kicker</a> free programming books</li>
     <li><a href="https://en.wikibooks.org/wiki/Ruby_Programming">Ruby wikibook</a></li>
     <li><a href="https://www.keycdn.com/blog/web-development-tools">List web development tools</a></li>
